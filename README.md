@@ -17,6 +17,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 > O sistema proposto para "Manual do Calouro" conterá as informações aqui detalhadas. Dos usuários serão armazenados o nome, o login e a senha. <br>O usuário também poderá ser: padrão, servidor ou professor. <br>Cada usuário poderá ou não fazer parte de uma turma. Do servidor será armazenado o horário de funcionamento, e do professor será armazenado suas regras de sala. Além disso, os servidores e professores possuem várias formas de contato e suas respectivas salas. <br>As aulas serão compostas por: turma, dia da semana, horário de início e fim, disciplina e sala. <br>Para o calendário, que será o mesmo que o calendário acadêmico, cada usuário poderá armazenar anotações de eventos, que terão a data e a descrição. <br>Serão armazenados também os horários das aulas semanais de cada turma, com suas respectivas aulas. <br>O ROD será dividido e armazenado em parágrafos com temas, de forma que facilite a pesquisa. Haverá também uma forma simplificada de cada parágrafo.
 
 ### 3. PMC<br>
+
 ![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png?raw=true 'PMC')
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO<br>
@@ -75,7 +76,7 @@ Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes c
 Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
 e tuplas falsas (Aplicar os conceitos de normalização abordados).
 
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/concept_sample.png?raw=true 'Modelo Conceitual')
+![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
 
 #### 7.1 Descrição dos dados
 
