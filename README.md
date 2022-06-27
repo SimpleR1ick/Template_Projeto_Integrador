@@ -17,9 +17,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 > O sistema proposto para "Manual do Calouro" conterá as informações aqui detalhadas. Dos usuários serão armazenados o nome, o login e a senha. <br>O usuário também poderá ser: padrão, servidor ou professor. Do servidor será armazenado o horário de funcionamento, e do professor será armazenado suas regras de sala. Além disso, os servidores e professores possuem várias formas de contato e suas respectivas salas. <br>Cada usuário poderá ou não fazer parte de uma turma. <br>As aulas serão compostas por: turma, dia da semana, horário de início e fim, disciplina e sala. <br>Para o calendário, que será o mesmo que o calendário acadêmico, cada usuário poderá armazenar anotações de eventos, que terão a data e a descrição.
 
 ### 3.PMC<br>
-
-a) inclusão do PMC desenvolvido pelo grupo <br>
-![PMC]("https://github.com/TeKel416/Template_Projeto_Integrador/edit/main/arquivos/Project Model Canvas.png"?raw=true 'PMC')
+![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png?raw=true 'PMC')
 
 ### 4.Personas e Histórias de usuário<br>
 
