@@ -5,9 +5,11 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Henrique Dalmagro: henriquedalmagro04@gmail.com
-Maria Eduarda de Souza Barros: maria123duarda@gmail.com
-Rafael Barros Leão Borges: rafaelbleaob@gmail.com
+<ul>
+ <li>Henrique Dalmagro: henriquedalmagro04@gmail.com</li>
+ <li>Maria Eduarda de Souza Barros: maria123duarda@gmail.com</li>
+ <li>Rafael Barros Leão Borges: rafaelbleaob@gmail.com</li>
+</ul>
 
 ### 2.MINIMUNDO<br>
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar)
