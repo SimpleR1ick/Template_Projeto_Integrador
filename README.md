@@ -76,7 +76,7 @@ Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes c
 Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
 e tuplas falsas (Aplicar os conceitos de normalização abordados).
 
-![Modelo Conceitual](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
+![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
 
 #### 7.1 Descrição dos dados
 
