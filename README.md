@@ -4,15 +4,13 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1. COMPONENTES <br>
 
-Integrantes do grupo<br>
+#### Integrantes do grupo: <br>
 
-<ul>
- <li>Henrique Dalmagro: henriquedalmagro04@gmail.com</li>
- <li>Maria Eduarda de Souza Barros: maria123duarda@gmail.com</li>
- <li>Rafael Barros Leão Borges: rafaelbleaob@gmail.com</li>
-</ul>
+- Henrique Dalmagro: henriquedalmagro04@gmail.com
+- Maria Eduarda de Souza Barros: maria123duarda@gmail.com
+- Rafael Barros Leão Borges: rafaelbleaob@gmail.com
 
 ### 2.MINIMUNDO <br>
 
