@@ -63,18 +63,13 @@ C) Após criada esta tabela não deve ser modificada, pois será comparada com o
 
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true 'Tabela - Empresa Devcom')
 
-### 7. MODELO CONCEITUAL<br>
+### 7. MODELO CONCEITUAL <br>
 
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 4.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento
+#### Principais Entidades: <br>
 
-<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)  
- C) Principais fluxos de informação/entidades do sistema (mínimo 2). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados
-D) Qualidade e Clareza
-Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
-e tuplas falsas (Aplicar os conceitos de normalização abordados).
+- Usuario
+-
+-
 
 ![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
 
