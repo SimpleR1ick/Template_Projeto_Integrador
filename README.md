@@ -19,7 +19,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 3.PMC<br>
 
 a) inclusão do PMC desenvolvido pelo grupo <br>
-![PMC](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true 'PMC')
+![PMC]("https://github.com/TeKel416/Template_Projeto_Integrador/edit/main/arquivos/Project Model Canvas.png"?raw=true 'PMC')
 
 ### 4.Personas e Histórias de usuário<br>
 
