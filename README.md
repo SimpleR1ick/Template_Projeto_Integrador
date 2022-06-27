@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...
+Henrique Dalmagro: henriquedalmagro04@gmail.com
+Maria Eduarda de Souza Barros: maria123duarda@gmail.com
+Rafael Barros Leão Borges: rafaelbleaob@gmail.com
 
 ### 2.MINIMUNDO<br>
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar)
