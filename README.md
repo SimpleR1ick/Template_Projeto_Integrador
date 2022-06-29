@@ -22,8 +22,11 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
-a) inclusão dos Persons desenvolvidos pelo grupo<br>
-<img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
+a) Personas
+<img src="arquivos/Personas/1.png" width="500"/> <br>
+<img src="arquivos/Personas/2.png" width="500"/> <br>
+<img src="arquivos/Personas/3.png" width="500"/> <br>
+<img src="arquivos/Personas/4.png" width="500"/> <br>
 
 <br>
 
