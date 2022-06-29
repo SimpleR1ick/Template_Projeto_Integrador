@@ -32,7 +32,7 @@ a) Personas <br>
 
 b) Histórias de usuário desenvolvidas pelo grupo <br>
 
-<h6>Persona 1: Aluno Veterano</h6>
+<h3>Persona 1: Aluno Veterano</h3>
 <ol>
   <li>Eu, Maria Eduarda, quero mais facilidade em encontrar o telefone de um determinado departamento para encontrar quem resolve meu problema.</li>
   <li>Eu, Maria Eduarda, quero mais facilidade em acessar meu horário de aulas para acompanhar minha rotina naquele dia.</li>
@@ -45,7 +45,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 </ol>
 <br>
 
-<h6>Persona 2: Aluno ingressante</h6>
+<h3>Persona 2: Aluno ingressante</h3>
 <ol>
   <li>Eu, Guilherme, quero um mapa para saber onde ficam minhas salas de aula.</li>
   <li>Eu, Guilherme, quero acesso ao ROD para aprender as regras do campus.</li>
@@ -58,7 +58,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 </ol>
 <br>
 
-<h6>Persona 3: Servidor</h6>
+<h3>Persona 3: Servidor</h3>
 <ol>
   <li>Eu, Alícia, quero acesso rápido e fácil ao mapa do campus para me localizar e saber o caminho mais rápido até o local que preciso ir.</li>
   <li>Eu, Alícia, quero ter acesso a uma visão geral do ROD para aprender sobre os direitos e deveres dos servidores e alunos.</li>
@@ -70,7 +70,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 </ol>
 <br>
 
-<h6>Persona 1: Aluno Veterano</h6>
+<h3>Persona 4: Professor</h3>
 <ol>
   <li>Eu, Carlos, quero poder alterar o horário de um dia específico para avisar meus alunos de mudanças pontuais.</li>
   <li>Eu, Carlos, quero um acesso mais fácil ao ROD para evitar problemas com o campus.</li>
