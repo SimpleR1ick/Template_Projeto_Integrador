@@ -22,13 +22,67 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
-a) inclusão dos Persons desenvolvidos pelo grupo<br>
-<img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
+a) Personas <br>
+<img src="arquivos/Personas/3.png" width="500"/> <br>
+<img src="arquivos/Personas/1.png" width="500"/> <br>
+<img src="arquivos/Personas/2.png" width="500"/> <br>
+<img src="arquivos/Personas/4.png" width="500"/> <br>
 
 <br>
 
-b) inclusão das Histórias de usuário desenvolvidas pelo grupo <br>
-<img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
+b) Histórias de usuário desenvolvidas pelo grupo <br>
+
+<h3>Persona 1: Aluno Veterano</h3>
+<ol>
+  <li>Eu, Maria Eduarda, quero mais facilidade em encontrar o telefone de um determinado departamento para encontrar quem resolve meu problema.</li>
+  <li>Eu, Maria Eduarda, quero mais facilidade em acessar meu horário de aulas para acompanhar minha rotina naquele dia.</li>
+  <li>Eu, Maria Eduarda, quero um calendário mais flexível para não precisar baixar outro arquivo quando há alguma mudança.</li>
+  <li>Eu, Maria Eduarda, quero um calendário interativo para fazer anotações sobre mudanças nos dias.</li>
+  <li>Eu, Maria Eduarda, quero acesso mais fácil e rápido ao ROD para poder lutar por meus direitos.</li>
+  <li>Eu, Maria Eduarda, quero um local com as regras de sala de cada professor para não precisar ficar lembrando das preferências individuais deles</li>
+  <li>Eu, Maria Eduarda, quero saber todos os horários de atendimento dos professores para tirar dúvidas com eles.</li>
+  <li>Eu, Maria Eduarda, quero saber os horários de atendimento dos departamentos para saber quando posso ir e resolver meus problemas.</li>
+</ol>
+<br>
+
+<h3>Persona 2: Aluno ingressante</h3>
+<ol>
+  <li>Eu, Guilherme, quero um mapa para saber onde ficam minhas salas de aula.</li>
+  <li>Eu, Guilherme, quero acesso ao ROD para aprender as regras do campus.</li>
+  <li>Eu, Guilherme, quero um acesso mais fácil ao horário de aulas para aprender minha nova rotina.</li>
+  <li>Eu, Guilherme, quero aprender os contatos dos meus professores para tirar dúvidas.</li>
+  <li>Eu, Guilherme, quero ter acesso aos perfis dos professores para aprender suas dinâmicas de sala.</li>
+  <li>Eu, Guilherme, quero ter acesso mais rápido ao calendário acadêmico para acompanhar meu ano letivo.</li>
+  <li>Eu, Guilherme, quero saber o horário de atendimento do pedagogo para tirar minhas dúvidas relacionadas à escola.</li>
+  <li>Eu, Guilherme, quero saber o contato do pedagogo para resolver problemas relacionados à escola.</li>
+</ol>
+<br>
+
+<h3>Persona 3: Servidor</h3>
+<ol>
+  <li>Eu, Alícia, quero acesso rápido e fácil ao mapa do campus para me localizar e saber o caminho mais rápido até o local que preciso ir.</li>
+  <li>Eu, Alícia, quero ter acesso a uma visão geral do ROD para aprender sobre os direitos e deveres dos servidores e alunos.</li>
+  <li>Eu, Alícia, quero ter acesso fácil aos horários de aula de minhas turmas para saber o melhor horário para ir dar recados.</li>
+  <li>Eu, Alícia, quero acesso a um calendário unido ao calendário acadêmico para programar mais rápido e fácil atividades e reuniões.</li>
+  <li>Eu, Alícia, quero poder disponibilizar meu contato de uma forma mais pública/visível para que minhas turmas consigam me contatar mais facilmente.</li>
+  <li>Eu, Alícia, quero acesso mais fácil aos parágrafos do ROD para responder dúvidas mais eficientemente.</li>
+  <li>Eu, Alícia, quero acesso mais fácil aos parágrafos do ROD para responder dúvidas com propriedade e rapidez.</li>
+</ol>
+<br>
+
+<h3>Persona 4: Professor</h3>
+<ol>
+  <li>Eu, Carlos, quero poder alterar o horário de um dia específico para avisar meus alunos de mudanças pontuais.</li>
+  <li>Eu, Carlos, quero um acesso mais fácil ao ROD para evitar problemas com o campus.</li>
+  <li>Eu, Carlos, quero poder alterar meus dados de contato para avisar meus alunos mais facilmente em caso de mudança.</li>
+  <li>Eu, Carlos, quero poder avisar, por meio do mapa, o local novo de aula para me preocupar com alunos perdidos.</li>
+  <li>Eu, Carlos, quero poder alterar meu horário de atendimento para deixar os alunos sabendo.</li>
+  <li>Eu, Carlos, quero ter acesso ao calendário acadêmico para saber com mais facilidade as datas dos meus sábados letivos.</li>
+  <li>Eu, Carlos, quero ter acesso ao calendário para me preparar para as reuniões e feriados.</li>
+  <li>Eu, Carlos, quero poder alterar minhas regras de sala no meu perfil para avisar meus alunos dessas mudanças.</li>
+</ol>
+<br>
+
 <br>
 
 ### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS) <br>
