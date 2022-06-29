@@ -33,7 +33,7 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo <br>
 
 ### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS) <br>
 
-![Protótipo Manual do Calouro](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.pdf?raw=true 'Manual do Calouro')
+![Protótipo Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.pdf?raw=true 'Manual do Calouro')
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -50,7 +50,7 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo <br>
 
 ### 6. TABELA DE DADOS DO SISTEMA:
 
-![Tabela de dados do Manual do Calouro](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.ods?raw=true 'Tabela - Manual do Calouro')
+![Tabela de dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.ods?raw=true 'Tabela - Manual do Calouro')
 
 ### 7. MODELO CONCEITUAL <br>
 
