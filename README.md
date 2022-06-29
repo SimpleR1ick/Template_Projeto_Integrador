@@ -23,7 +23,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas
-<img src="arquivos/Personas/1.png" width="500"/> <br>
+<br><img src="arquivos/Personas/1.png" width="500"/> <br>
 <img src="arquivos/Personas/2.png" width="500"/> <br>
 <img src="arquivos/Personas/3.png" width="500"/> <br>
 <img src="arquivos/Personas/4.png" width="500"/> <br>
