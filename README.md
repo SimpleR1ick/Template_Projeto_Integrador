@@ -61,8 +61,8 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo <br>
 #### Principais Entidades: <br>
 
 - Usuario
--
--
+- Eventos
+- Aula
 
 ![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
 
