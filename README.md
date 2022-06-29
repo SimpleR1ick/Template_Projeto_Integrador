@@ -16,11 +16,11 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 > O sistema proposto para "Manual do Calouro" conterá as informações aqui detalhadas. Dos usuários serão armazenados o nome, o login e a senha. <br>O usuário também poderá ser: padrão, servidor ou professor. <br>Cada usuário poderá ou não fazer parte de uma turma. Do servidor será armazenado o horário de funcionamento, e do professor será armazenado suas regras de sala. Além disso, os servidores e professores possuem várias formas de contato e suas respectivas salas. <br>As aulas serão compostas por: turma, dia da semana, horário de início e fim, disciplina e sala. <br>Para o calendário, que será o mesmo que o calendário acadêmico, cada usuário poderá armazenar anotações de eventos, que terão a data e a descrição. <br>Serão armazenados também os horários das aulas semanais de cada turma, com suas respectivas aulas. <br>O ROD será dividido e armazenado em parágrafos com temas, de forma que facilite a pesquisa. Haverá também uma forma simplificada de cada parágrafo.
 
-### 3. PMC<br>
+### 3. PMC <br>
 
 ![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png?raw=true 'PMC')
 
-### 4. PERSONAS E HISTÓRIAS DE USUÁRIO<br>
+### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) inclusão dos Persons desenvolvidos pelo grupo<br>
 <img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
@@ -31,14 +31,9 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo <br>
 <img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
 <br>
 
-### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS) <br>
 
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true 'Title')
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true 'Empresa Devcom')
+![Protótipo Manual do Calouro](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.pdf?raw=true 'Manual do Calouro')
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
