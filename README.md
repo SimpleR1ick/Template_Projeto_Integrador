@@ -131,11 +131,13 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
     acesso: campo que armazena o número que indica o nível de acesso permitido ao usuário.
     img_perfil: campo que armazena o caminho da imagem de perfil do usuário.
 
-    Servidor: Tabela que herda de Usuario e armazena as informações relativas aos usuários que são servidor público ou representante de um departamento no IFES Serra.
+    Servidor: Tabela que herda de Usuario e armazena as informações relativas aos usuários que são
+    servidor público ou representante de um departamento no IFES Serra.
     horario_fim: campo que armazena o horário em que o usuário-servidor inicia seu horário de atendimento.
     horario_inicio: campo que armazena o horário em que o usuário-servidor finaliza seu horário de atendimento.
 
-    Professor: Tabela que herda de Usuario e Servidor e armazena as informações relativas aos usuários que são professores no IFES Serra.
+    Professor: Tabela que herda de Usuario e Servidor e armazena as informações relativas aos usuários que
+    são professores no IFES Serra.
     regras: campo que armazena as regras de sala do usuário-professor.
 
     Turma: Tabela que armazena as informações relativas às turmas do ensino médio técnico no IFES Serra.
@@ -152,22 +154,27 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
     dsc_disc: campo que armazena o nome da disciplina (ex: Projeto Integrador).
 
     Sala: Tabela que armazena as informações relativas às salas no IFES Serra.
-    id_sala: campo que armazena o número de identificação única para cada sala no campus, sendo 0/1 + n° da sala (0 para térreo e 1 para superior).
+    id_sala: campo que armazena o número de identificação única para cada sala no campus, sendo 0/1 + n°
+    da sala (0 para térreo e 1 para superior).
     dsc_sala: campo que armazena o tipo da sala (ex: laboratório de biologia).
 
     Eventos: Tabela que armazena as informações relativas aos eventos no calendário.
     id_eventos: campo que armazena o número de identificação única para cada evento salvo pelo usuário.
-    dsc_evento: campo que armazena a descrição/nome do evento marcado no calendário pelo usuário (ex: prova de recuperação de química).
+    dsc_evento: campo que armazena a descrição/nome do evento marcado no calendário pelo usuário
+    (ex: prova de recuperação de química).
     data_evento: campo que armazena a data e horário em que o evento irá acontecer.
 
-    Tipo_contato: Tabela que armazena as informações relativas aos tipos de contato que um usuário-servidor e usuário-professor podem ter.
+    Tipo_contato: Tabela que armazena as informações relativas aos tipos de contato que um usuário-servidor e
+    usuário-professor podem ter.
     id_tipo: campo que armazena o número de identificação único daquele tipo de contato.
     dsc_tipo: campo que armazena o tipo de contato (ex: email).
 
-    Aula: Relacionamento que relaciona as informações relativas às aulas de cada turma, compostas por: dia da semana, horário, disciplina, professor, turma e sala.
+    Aula: Relacionamento que relaciona as informações relativas às aulas de cada turma, compostas por:
+    dia da semana, horário, disciplina, professor, turma e sala.
     id_aula: campo que armazena o número de identificação único de uma aula.
 
-    Tem: Relacionamento que relaciona as informações relativas ao contato de um usuário-servidor ou usuário-professor.
+    Tem: Relacionamento que relaciona as informações relativas ao contato de um usuário-servidor ou
+    usuário-professor.
     id_contato: campo que armazena o número de identificação único daquele contato.
     dsc_contato:  campo que armazena o conteúdo do contato (ex: prof.omena@gmail.com).
 
