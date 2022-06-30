@@ -23,10 +23,10 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
-![Persona 1](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/1.png?raw=true|width=500px)
-![Persona 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/2.png?raw=true|width=500px)
-![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png?raw=true|width=500px)
-![Persona 4](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/4.png?raw=true|width=500px)
+![Persona 1](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/1.png?raw=true|width=500)
+![Persona 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/2.png?raw=true|width=500)
+![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png?raw=true|width=500)
+![Persona 4](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/4.png?raw=true|width=500)
 
 <br>
 
