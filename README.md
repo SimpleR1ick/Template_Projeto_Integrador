@@ -32,7 +32,7 @@ a) Personas <br>
 
 b) Histórias de usuário desenvolvidas pelo grupo <br>
 
-#### Persona 1: Aluno Veterano
+### Persona 1: Aluno Veterano
 
 1. Eu, Maria Eduarda, quero mais facilidade em encontrar o telefone de um determinado departamento para encontrar quem resolve meu problema.
 2. Eu, Maria Eduarda, quero mais facilidade em acessar meu horário de aulas para acompanhar minha rotina naquele dia.
@@ -45,7 +45,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 <br>
 
-#### Persona 2: Aluno ingressante
+### Persona 2: Aluno ingressante
 
 1. Eu, Guilherme, quero um mapa para saber onde ficam minhas salas de aula.
 2. Eu, Guilherme, quero acesso ao ROD para aprender as regras do campus.
@@ -58,7 +58,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 <br>
 
-#### Persona 3: Servidor
+### Persona 3: Servidor
 
 1. Eu, Alícia, quero acesso rápido e fácil ao mapa do campus para me localizar e saber o caminho mais rápido até o local que preciso ir.
 2. Eu, Alícia, quero ter acesso a uma visão geral do ROD para aprender sobre os direitos e deveres dos servidores e alunos.
@@ -70,7 +70,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 <br>
 
-#### Persona 4: Professor
+### Persona 4: Professor
 
 1. Eu, Carlos, quero poder alterar o horário de um dia específico para avisar meus alunos de mudanças pontuais.
 2. Eu, Carlos, quero um acesso mais fácil ao ROD para evitar problemas com o campus.
