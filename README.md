@@ -23,10 +23,10 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
-![Persona 1](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/1.png?raw=true|width=500)
-![Persona 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/2.png?raw=true|width=500)
-![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png?raw=true|width=500)
-![Persona 4](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/4.png?raw=true|width=500)
+<img src="arquivos/Personas/3.png" width="500"/> <br>
+<img src="arquivos/Personas/1.png" width="500"/> <br>
+<img src="arquivos/Personas/2.png" width="500"/> <br>
+<img src="arquivos/Personas/4.png" width="500"/> <br>
 
 <br>
 
@@ -122,11 +122,54 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### 7.1 Descrição dos dados
 
-    [objeto]: [descrição do objeto]
+    Usuario: Tabela que armazena as informações relativas aos usuários do sistema.
+    id_user: campo que armazena o número de identificação única do usuário.
+    nome: campo que armazena o nome do usuário.
+    email: campo que armazena o e-mail utilizado para login do usuário.
+    senha: campo que armazena a senha criptografada para login do usuário.
+    ativo: campo que armazena o número que indica se a conta do usuário está ativa ou inativa.
+    acesso: campo que armazena o número que indica o nível de acesso permitido ao usuário.
+    img_perfil: campo que armazena o caminho da imagem de perfil do usuário.
 
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Servidor: Tabela que herda de Usuario e armazena as informações relativas aos usuários que são servidor público ou representante de um departamento no IFES Serra.
+    horario_fim: campo que armazena o horário em que o usuário-servidor inicia seu horário de atendimento.
+    horario_inicio: campo que armazena o horário em que o usuário-servidor finaliza seu horário de atendimento.
+
+    Professor: Tabela que herda de Usuario e Servidor e armazena as informações relativas aos usuários que são professores no IFES Serra.
+    regras: campo que armazena as regras de sala do usuário-professor.
+
+    Turma: Tabela que armazena as informações relativas às turmas do ensino médio técnico no IFES Serra.
+    id_turma: campo que armazena o número de identificação única de uma turma.
+    dsc_turma: campo que armazena o nome da turma (ex: 3° ano Informática).
+
+    Horario: Tabela que armazena as informações relativas aos horários das aulas.
+    id_horario: campo que armazena o número de identificação única de cada par de horários.
+    hora_fim: campo que armazena o horário de início de uma determinada aula.
+    hora_inicio: campo que armazena o horário de término de uma determinada aula.
+
+    Disciplina: Tabela que armazena as informações relativas às disciplinas ensinadas.
+    id_disc: campo que armazena o número de identificação única de uma disciplina.
+    dsc_disc: campo que armazena o nome da disciplina (ex: Projeto Integrador).
+
+    Sala: Tabela que armazena as informações relativas às salas no IFES Serra.
+    id_sala: campo que armazena o número de identificação única para cada sala no campus, sendo 0/1 + n° da sala (0 para térreo e 1 para superior).
+    dsc_sala: campo que armazena o tipo da sala (ex: laboratório de biologia).
+
+    Eventos: Tabela que armazena as informações relativas aos eventos no calendário.
+    id_eventos: campo que armazena o número de identificação única para cada evento salvo pelo usuário.
+    dsc_evento: campo que armazena a descrição/nome do evento marcado no calendário pelo usuário (ex: prova de recuperação de química).
+    data_evento: campo que armazena a data e horário em que o evento irá acontecer.
+
+    Tipo_contato: Tabela que armazena as informações relativas aos tipos de contato que um usuário-servidor e usuário-professor podem ter.
+    id_tipo: campo que armazena o número de identificação único daquele tipo de contato.
+    dsc_tipo: campo que armazena o tipo de contato (ex: email).
+
+    Aula: Relacionamento que relaciona as informações relativas às aulas de cada turma, compostas por: dia da semana, horário, disciplina, professor, turma e sala.
+    id_aula: campo que armazena o número de identificação único de uma aula.
+
+    Tem: Relacionamento que relaciona as informações relativas ao contato de um usuário-servidor ou usuário-professor.
+    id_contato: campo que armazena o número de identificação único daquele contato.
+    dsc_contato:  campo que armazena o conteúdo do contato (ex: prof.omena@gmail.com).
 
 ### 8. RASTREABILIDADE DOS ARTEFATOS<br>
 
