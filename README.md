@@ -122,14 +122,14 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### 7.1 Descrição dos dados
 
-**Usuario:** Tabela que armazena as informações relativas aos usuários do sistema.
-id_user: campo que armazena o número de identificação única do usuário.
-nome: campo que armazena o nome do usuário.
-email: campo que armazena o e-mail utilizado para login do usuário.
-senha: campo que armazena a senha criptografada para login do usuário.
-ativo: campo que armazena o número que indica se a conta do usuário está ativa ou inativa.
-acesso: campo que armazena o número que indica o nível de acesso permitido ao usuário.
-img_perfil: campo que armazena o caminho da imagem de perfil do usuário.
+    Usuario: Tabela que armazena as informações relativas aos usuários do sistema.
+    id_user: campo que armazena o número de identificação única do usuário.
+    nome: campo que armazena o nome do usuário.
+    email: campo que armazena o e-mail utilizado para login do usuário.
+    senha: campo que armazena a senha criptografada para login do usuário.
+    ativo: campo que armazena o número que indica se a conta do usuário está ativa ou inativa.
+    acesso: campo que armazena o número que indica o nível de acesso permitido ao usuário.
+    img_perfil: campo que armazena o caminho da imagem de perfil do usuário.
 
     Servidor: Tabela que herda de Usuario e armazena as informações relativas aos usuários que são servidor público ou representante de um departamento no IFES Serra.
     horario_fim: campo que armazena o horário em que o usuário-servidor inicia seu horário de atendimento.
