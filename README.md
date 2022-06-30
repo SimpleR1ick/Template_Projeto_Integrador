@@ -93,16 +93,13 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+> O Manual do Calouro precisa inicialmente dos seguintes relatórios:
 
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-
-- Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento, nome do departamento, e nome do gerente.
-- Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-- Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-- Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-- Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+- Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuáiro, e seu email.
+- Relatório das salas usadas por cada turma, professor e servidor.
+- Relatório dos contatos dos servidores, e seus horários de atendimento e os contatos dos professores e suas regras de sala.
+- Relatório das aulas, incluindo as seguintes informações: dia da semana, a disciplina, a sala, a turma, o horário, e o usuário ligado a ela, podendo ser ele um aluno ou professor.
+- Relatório dos eventos acadêmicos ligados a um usuário.
 
 ### 6. TABELA DE DADOS DO SISTEMA:
 
