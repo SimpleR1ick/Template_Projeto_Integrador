@@ -122,7 +122,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### 7.1 Descrição dos dados
 
-    Usuario: Tabela que armazena as informações relativas aos usuários do sistema.
+    *Usuario:* Tabela que armazena as informações relativas aos usuários do sistema.
     id_user: campo que armazena o número de identificação única do usuário.
     nome: campo que armazena o nome do usuário.
     email: campo que armazena o e-mail utilizado para login do usuário.
