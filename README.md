@@ -93,13 +93,13 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
-> O Manual do Calouro precisa inicialmente dos seguintes relatórios:
+> O Manual do Calouro poderá fornecer:
 
 - Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuário, e seu email.
 - Relatório das salas usadas por cada turma, professor e servidor.
 - Relatório dos contatos dos servidores, e seus horários de atendimento e os contatos dos professores e suas regras de sala.
-- Relatório das aulas, incluindo as seguintes informações: dia da semana, a disciplina, a sala, a turma, o horário, e o usuário ligado a ela, podendo ser ele um aluno ou professor.
-- Relatório dos eventos acadêmicos ligados a um usuário.
+- Relatório de quais turmas mais utilizam o Manual do Calouro e as funcionalidades mais acessadas.
+- Relatório da porcentagem e número absoluto de alunos, servidores e professores que usam o Manual do Calouro.
 
 ### 6. TABELA DE DADOS DO SISTEMA:
 
