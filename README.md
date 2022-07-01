@@ -18,11 +18,13 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 3. PMC <br>
 
-![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png)
+![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png) <br>
+[PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png)
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
+[PDF das Personas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Personas.pdf) <br>
 ![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png) <br>
 ![Persona 1](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/1.png) <br>
 ![Persona 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/2.png) <br>
@@ -115,7 +117,8 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 - Eventos
 - Aula
 
-![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
+![Imagem Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
+[Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
 
 #### 7.1 Descrição dos dados
 
