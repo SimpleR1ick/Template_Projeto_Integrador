@@ -18,15 +18,15 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 3. PMC <br>
 
-![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png?raw=true 'PMC')
+![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png)
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
-<img src="arquivos/Personas/3.png" width="500"/> <br>
-<img src="arquivos/Personas/1.png" width="500"/> <br>
-<img src="arquivos/Personas/2.png" width="500"/> <br>
-<img src="arquivos/Personas/4.png" width="500"/> <br>
+![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png) <br>
+![Persona 1](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/1.png) <br>
+![Persona 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/2.png) <br>
+![Persona 4](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/4.png) <br>
 
 <br>
 
@@ -87,9 +87,9 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 ### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS) <br>
 
-![Imagem do Protótipo](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.png?raw=true 'Imagem Protótipo - Manual do Calouro')
+![Imagem do Protótipo](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.png) <br>
 
-[Protótipo Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.pdf?raw=true 'Protótipo - Manual do Calouro')
+[Protótipo Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.pdf) <br>
 
 #### 5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -103,9 +103,9 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 ### 6. TABELA DE DADOS DO SISTEMA:
 
-![Imagem da Tabela de Dados](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.png?raw=true 'Imagem Tabela - Manual do Calouro')
+![Imagem da Tabela de Dados](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.png) <br>
 
-[Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.pdf?raw=true 'Tabela - Manual do Calouro')
+[Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.pdf) <br>
 
 ### 7. MODELO CONCEITUAL <br>
 
@@ -115,7 +115,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 - Eventos
 - Aula
 
-![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true 'Modelo Conceitual')
+![Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
 
 #### 7.1 Descrição dos dados
 
