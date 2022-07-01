@@ -84,35 +84,35 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 > **USUARIO:** Tabela que armazena as informações relativas aos usuários do sistema.<br>**id_user:** campo que armazena o número de identificação única do usuário.<br>**nome:** campo que armazena o nome do usuário.<br>**email:** campo que armazena o e-mail utilizado para login do usuário.<br>**senha:** campo que armazena a senha criptografada para login do usuário.<br>**ativo:** campo que armazena o número que indica se a conta do usuário está ativa ou inativa.<br>**acesso:** campo que armazena o número que indica o nível de acesso permitido ao usuário.<br>**img_perfil:** campo que armazena o caminho da imagem de perfil do usuário.<br><br>**SERVIDOR:** Tabela que herda de Usuario e armazena as informações relativas aos usuários que são servidor público ou representante de um departamento no IFES Serra.<br>**horario_fim:** campo que armazena o horário em que o usuário-servidor inicia seu horário de atendimento.<br>**horario_inicio:** campo que armazena o horário em que o usuário-servidor finaliza seu horário de atendimento.<br><br>**PROFESSOR:** Tabela que herda de Usuario e Servidor e armazena as informações relativas aos usuários que são professores no IFES Serra.<br>**regras:** campo que armazena as regras de sala do usuário-professor.<br><br>**TURMA:** Tabela que armazena as informações relativas às turmas do ensino médio técnico no IFES Serra.<br>**id_turma:** campo que armazena o número de identificação única de uma turma.<br>**dsc_turma:** campo que armazena o nome da turma (ex: 3° ano Informática).<br><br>**HORARIO:** Tabela que armazena as informações relativas aos horários das aulas.<br>**id_horario:** campo que armazena o número de identificação única de cada par de horários.<br>**hora_fim:** campo que armazena o horário de início de uma determinada aula.<br>**hora_inicio:** campo que armazena o horário de término de uma determinada aula.<br><br>**DISCIPLINA:** Tabela que armazena as informações relativas às disciplinas ensinadas.<br>**id_disc:** campo que armazena o número de identificação única de uma disciplina.<br>**dsc_disc:** campo que armazena o nome da disciplina (ex: Projeto Integrador).<br><br>**SALA:** Tabela que armazena as informações relativas às salas no IFES Serra.<br>**id_sala:** campo que armazena o número de identificação única para cada sala no campus, sendo 0/1 + n° da sala (0 para térreo e 1 para superior).<br>**dsc_sala:** campo que armazena o tipo da sala (ex: laboratório de biologia).<br><br>**EVENTOS:** Tabela que armazena as informações relativas aos eventos no calendário.<br>**id_eventos:** campo que armazena o número de identificação única para cada evento salvo pelo usuário.<br>**dsc_evento:** campo que armazena a descrição/nome do evento marcado no calendário pelo usuário (ex: prova de recuperação de química).<br>**data_evento:** campo que armazena a data e horário em que o evento irá acontecer.<br><br>**TIPO_CONTATO:** Tabela que armazena as informações relativas aos tipos de contato que um usuário-servidor e usuário-professor podem ter.<br>**id_tipo:** campo que armazena o número de identificação único daquele tipo de contato.<br>**dsc_tipo:** campo que armazena o tipo de contato (ex: email).<br><br>**AULA:** Relacionamento que relaciona as informações relativas às aulas de cada turma, compostas por: dia da semana, horário, disciplina, professor, turma e sala.<br>**id_aula:** campo que armazena o número de identificação único de uma aula.<br><br>**TEM:** Relacionamento que relaciona as informações relativas ao contato de um usuário-servidor ou usuário-professor.<br>**id_contato:** campo que armazena o número de identificação único daquele contato.<br>**dsc_contato:** campo que armazena o conteúdo do contato (ex: prof.omena@gmail.com).
 
-### 8. RASTREABILIDADE DOS ARTEFATOS<br>
+### 8. RASTREABILIDADE DOS ARTEFATOS <br>
 
-        a) Historia de usuários vs protótipo (mockup)
-        b) Protótipo vs Modelo conceitual
-        (não serão aceitos modelos que não estejam em conformidade)
-        c) Backlog (caso solicitado)
+    a) Historia de usuários vs protótipo (mockup)
+    b) Protótipo vs Modelo conceitual
+    (não serão aceitos modelos que não estejam em conformidade)
+    c) Backlog (caso solicitado)
 
-### 9. MODELO LÓGICO<br>
+### 9. MODELO LÓGICO <br>
 
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual
-        (não serão aceitos modelos que não estejam em conformidade)
+    a) inclusão do esquema lógico do banco de dados
+    b) verificação de correspondencia com o modelo conceitual
+    (não serão aceitos modelos que não estejam em conformidade)
 
-### 10. MODELO FÍSICO<br>
+### 10. MODELO FÍSICO <br>
 
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL
-        (criação de tabelas, alterações, etc..)
+    a) inclusão das instruções de criacão das estruturas em SQL/DDL
+    (criação de tabelas, alterações, etc..)
 
-### 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+### 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS <br>
 
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
+    a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+    (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
 
 <br> + insert para dados a serem inseridos)
 b) Criar um novo banco de dados para testar a restauracao
 (em caso de falha na restauração o grupo não pontuará neste quesito)
 c) formato .SQL
 
-### 12. TABELAS E PRINCIPAIS CONSULTAS<br>
+### 12. TABELAS E PRINCIPAIS CONSULTAS <br>
 
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
@@ -132,16 +132,19 @@ Link para [Modelo de Anteprojeto](https://docs.google.com/document/d/1oeVS2CUffb
 
  <br>
  <br>
- 
- 
- 
- 
- ### 13. Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
+
+### 13. Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
+
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
- #### 13.1	Integração com Linguagem de programação; <br>
- #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
- #### solicitações feitas pelo professor. <br>
- #### 13.3 ANTEPROJETO VERSÃO 2
+
+#### 13.1 Integração com Linguagem de programação; <br>
+
+#### 13.2 Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
+
+#### solicitações feitas pelo professor. <br>
+
+#### 13.3 ANTEPROJETO VERSÃO 2
+
  <br>
  <br>
  
