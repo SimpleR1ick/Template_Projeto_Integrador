@@ -1,6 +1,6 @@
 # TRABALHO DE PI: Manual do Calouro
 
-Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
+Trabalho desenvolvido durante as disciplinas de Projeto Intedrador e Desenvolvimento de Sistemas do Integrado
 
 # Sumário
 
