@@ -66,7 +66,6 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 ### 6. TABELA DE DADOS DO SISTEMA:
 
 ![Imagem da Tabela de Dados](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.png) <br>
-
 [Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.pdf?raw=true) <br>
 
 ### 7. MODELO CONCEITUAL <br>
@@ -87,6 +86,9 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 ### 8. RASTREABILIDADE DOS ARTEFATOS <br>
 
     a) Historia de usuários vs protótipo (mockup)
+    ![Imagem Rastreabilidade](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade.png) <br>
+    [Rastreabilidade HU x Página](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade%20HU%20x%20P%C3%A1ginas.pdf?raw=true) <br>
+    
     b) Protótipo vs Modelo conceitual
     (não serão aceitos modelos que não estejam em conformidade)
     c) Backlog (caso solicitado)
