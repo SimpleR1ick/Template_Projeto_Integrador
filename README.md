@@ -24,13 +24,30 @@ Trabalho desenvolvido durante as disciplinas de Projeto Intedrador e Desenvolvim
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
+
 ![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png) <br>
 [PDF das Personas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Personas.pdf?raw=true) <br>
 
 <br>
 
 b) Histórias de usuário desenvolvidas pelo grupo <br>
-[PDF das Histórias de Usuário](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Histórias%20de%20Usuário.pdf?raw=true)
+
+<br>
+
+### Persona 1: Aluno Veterano
+
+1. Eu, Maria Eduarda, quero mais facilidade em encontrar o telefone de um determinado departamento para encontrar quem resolve meu problema.
+2. Eu, Maria Eduarda, quero mais facilidade em acessar meu horário de aulas para acompanhar minha rotina naquele dia.
+3. Eu, Maria Eduarda, quero um calendário mais flexível para não precisar baixar outro arquivo quando há alguma mudança.
+4. Eu, Maria Eduarda, quero um calendário interativo para fazer anotações sobre mudanças nos dias.
+5. Eu, Maria Eduarda, quero acesso mais fácil e rápido ao ROD para poder lutar por meus direitos.
+6. Eu, Maria Eduarda, quero um local com as regras de sala de cada professor para não precisar ficar lembrando das preferências individuais deles
+7. Eu, Maria Eduarda, quero saber todos os horários de atendimento dos professores para tirar dúvidas com eles.
+8. Eu, Maria Eduarda, quero saber os horários de atendimento dos departamentos para saber quando posso ir e resolver meus problemas.
+
+<br>
+
+[PDF das Histórias de Usuário](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Histórias%20de%20Usuário.pdf?raw=true)
 
 <br>
 
