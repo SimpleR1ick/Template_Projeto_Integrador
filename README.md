@@ -95,7 +95,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 > O Manual do Calouro precisa inicialmente dos seguintes relatórios:
 
-- Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuáiro, e seu email.
+- Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuário, e seu email.
 - Relatório das salas usadas por cada turma, professor e servidor.
 - Relatório dos contatos dos servidores, e seus horários de atendimento e os contatos dos professores e suas regras de sala.
 - Relatório das aulas, incluindo as seguintes informações: dia da semana, a disciplina, a sala, a turma, o horário, e o usuário ligado a ela, podendo ser ele um aluno ou professor.
