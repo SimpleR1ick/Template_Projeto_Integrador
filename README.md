@@ -105,7 +105,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 ![Imagem da Tabela de Dados](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.png?raw=true 'Imagem Tabela - Manual do Calouro')
 
-[Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.ods?raw=true 'Tabela - Manual do Calouro')
+[Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.pdf?raw=true 'Tabela - Manual do Calouro')
 
 ### 7. MODELO CONCEITUAL <br>
 
