@@ -24,61 +24,13 @@ Trabalho desenvolvido durante as disciplinas de Projeto Intedrador e Desenvolvim
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
 a) Personas <br>
-[PDF das Personas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Personas.pdf?raw=true) <br>
 ![Persona 3](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/3.png) <br>
+[PDF das Personas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Personas.pdf?raw=true) <br>
 
 <br>
 
 b) Histórias de usuário desenvolvidas pelo grupo <br>
-
-### Persona 1: Aluno Veterano
-
-1. Eu, Maria Eduarda, quero mais facilidade em encontrar o telefone de um determinado departamento para encontrar quem resolve meu problema.
-2. Eu, Maria Eduarda, quero mais facilidade em acessar meu horário de aulas para acompanhar minha rotina naquele dia.
-3. Eu, Maria Eduarda, quero um calendário mais flexível para não precisar baixar outro arquivo quando há alguma mudança.
-4. Eu, Maria Eduarda, quero um calendário interativo para fazer anotações sobre mudanças nos dias.
-5. Eu, Maria Eduarda, quero acesso mais fácil e rápido ao ROD para poder lutar por meus direitos.
-6. Eu, Maria Eduarda, quero um local com as regras de sala de cada professor para não precisar ficar lembrando das preferências individuais deles
-7. Eu, Maria Eduarda, quero saber todos os horários de atendimento dos professores para tirar dúvidas com eles.
-8. Eu, Maria Eduarda, quero saber os horários de atendimento dos departamentos para saber quando posso ir e resolver meus problemas.
-
-<br>
-
-### Persona 2: Aluno ingressante
-
-1. Eu, Guilherme, quero um mapa para saber onde ficam minhas salas de aula.
-2. Eu, Guilherme, quero acesso ao ROD para aprender as regras do campus.
-3. Eu, Guilherme, quero um acesso mais fácil ao horário de aulas para aprender minha nova rotina.
-4. Eu, Guilherme, quero aprender os contatos dos meus professores para tirar dúvidas.
-5. Eu, Guilherme, quero ter acesso aos perfis dos professores para aprender suas dinâmicas de sala.
-6. Eu, Guilherme, quero ter acesso mais rápido ao calendário acadêmico para acompanhar meu ano letivo.
-7. Eu, Guilherme, quero saber o horário de atendimento do pedagogo para tirar minhas dúvidas relacionadas à escola.
-8. Eu, Guilherme, quero saber o contato do pedagogo para resolver problemas relacionados à escola.
-
-<br>
-
-### Persona 3: Servidor
-
-1. Eu, Alícia, quero acesso rápido e fácil ao mapa do campus para me localizar e saber o caminho mais rápido até o local que preciso ir.
-2. Eu, Alícia, quero ter acesso a uma visão geral do ROD para aprender sobre os direitos e deveres dos servidores e alunos.
-3. Eu, Alícia, quero ter acesso fácil aos horários de aula de minhas turmas para saber o melhor horário para ir dar recados.
-4. Eu, Alícia, quero acesso a um calendário unido ao calendário acadêmico para programar mais rápido e fácil atividades e reuniões.
-5. Eu, Alícia, quero poder disponibilizar meu contato de uma forma mais pública/visível para que minhas turmas consigam me contatar mais facilmente.
-6. Eu, Alícia, quero acesso mais fácil aos parágrafos do ROD para responder dúvidas mais eficientemente.
-7. Eu, Alícia, quero acesso mais fácil aos parágrafos do ROD para responder dúvidas com propriedade e rapidez.
-
-<br>
-
-### Persona 4: Professor
-
-1. Eu, Carlos, quero poder alterar o horário de um dia específico para avisar meus alunos de mudanças pontuais.
-2. Eu, Carlos, quero um acesso mais fácil ao ROD para evitar problemas com o campus.
-3. Eu, Carlos, quero poder alterar meus dados de contato para avisar meus alunos mais facilmente em caso de mudança.
-4. Eu, Carlos, quero poder avisar, por meio do mapa, o local novo de aula para me preocupar com alunos perdidos.
-5. Eu, Carlos, quero poder alterar meu horário de atendimento para deixar os alunos sabendo.
-6. Eu, Carlos, quero ter acesso ao calendário acadêmico para saber com mais facilidade as datas dos meus sábados letivos.
-7. Eu, Carlos, quero ter acesso ao calendário para me preparar para as reuniões e feriados.
-8. Eu, Carlos, quero poder alterar minhas regras de sala no meu perfil para avisar meus alunos dessas mudanças.
+[PDF das Histórias de Usuário](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Histórias%20de%20Usuário.pdf?raw=true)
 
 <br>
 
