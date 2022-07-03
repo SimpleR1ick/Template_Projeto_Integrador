@@ -76,7 +76,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 - Turma
 - Aula
 
-#### Pricipais Fluxos de de Informação:
+#### Pricipais Fluxos de Informação:
 
 - Usuario
 - Aula
