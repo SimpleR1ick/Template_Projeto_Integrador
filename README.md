@@ -12,14 +12,17 @@ Trabalho desenvolvido durante as disciplinas de Projeto Intedrador e Desenvolvim
 - Maria Eduarda de Souza Barros: maria123duarda@gmail.com
 - Rafael Barros Leão Borges: rafaelbleaob@gmail.com
 
+
 ### 2. MINIMUNDO <br>
 
 > O sistema proposto para "Manual do Calouro" conterá as informações aqui detalhadas. Dos **USUARIO** serão armazenados o **nome, o login e a senha**. <br>O **USUARIO** também poderá ser: **padrão, servidor ou professor**. <br>**_Cada usuário poderá ou não fazer parte de uma turma_**. Do **SERVIDOR** será armazenado o **horário de funcionamento**, e do **PROFESSOR** será armazenado suas **regras de sala**. Além disso, os **SERVIDORES** e **PROFESSORES** possuem várias **formas de contato e suas respectivas salas**. <br>As **AULAS** serão compostas por: **turma, dia da semana, horário de início e fim, disciplina e sala**. <br>Para o calendário, que será o mesmo que o calendário acadêmico, cada usuário poderá armazenar anotações de **EVENTOS**, que terão a **data e a descrição**. <br>Serão armazenados também os **HORARIO** das aulas semanais de cada **TURMA**, com suas respectivas **AULAS**. <br>O ROD será dividido e armazenado em parágrafos com temas, de forma que facilite a pesquisa. Haverá também uma forma simplificada de cada parágrafo.
+
 
 ### 3. PMC <br>
 
 ![PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png) <br>
 [PMC](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Project%20Model%20Canvas.png?raw=true)
+
 
 ### 4. PERSONAS E HISTÓRIAS DE USUÁRIO <br>
 
@@ -47,6 +50,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 <br>
 
+
 ### 5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS) <br>
 
 ![Imagem do Protótipo](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20-%20Prototipo%201.png) <br>
@@ -63,10 +67,12 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 - Relatório de quais turmas mais utilizam o Manual do Calouro e as funcionalidades mais acessadas.
 - Relatório da porcentagem e número absoluto de alunos, servidores e professores que usam o Manual do Calouro.
 
+
 ### 6. TABELA DE DADOS DO SISTEMA:
 
 ![Imagem da Tabela de Dados](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.png) <br>
 [Tabela de Dados do Manual do Calouro](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Planilha.pdf?raw=true) <br>
+
 
 ### 7. MODELO CONCEITUAL <br>
 
@@ -96,6 +102,10 @@ a) Historia de usuários vs protótipo (mockup)<br>
 [Rastreabilidade HU x Página](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade%20HU%20x%20P%C3%A1ginas.pdf?raw=true) <br>
 
 b) Protótipo vs Modelo conceitual (não serão aceitos modelos que não estejam em conformidade) <br>
+
+![Imagem Rastreabilidade 2]() <br>
+[Rastreabilidade Modelo Conceitual x Páginas](?raw=true) <br>
+
 c) Backlog (caso solicitado)
 
 ### 9. MODELO LÓGICO <br>
