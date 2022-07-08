@@ -1,3 +1,19 @@
+DROP TABLE IF EXISTS Turma CASCADE;
+DROP TABLE IF EXISTS Dia_Semana CASCADE;
+DROP TABLE IF EXISTS Horario CASCADE;
+DROP TABLE IF EXISTS Sala CASCADE;
+DROP TABLE IF EXISTS Eventos CASCADE;
+DROP TABLE IF EXISTS Disciplina CASCADE;
+DROP TABLE IF EXISTS Tipo_contato CASCADE;
+DROP TABLE IF EXISTS Usuario CASCADE;
+DROP TABLE IF EXISTS Professor CASCADE;
+DROP TABLE IF EXISTS Servidor CASCADE;
+DROP TABLE IF EXISTS Aula CASCADE;
+DROP TABLE IF EXISTS Pertence CASCADE;
+DROP TABLE IF EXISTS Tem CASCADE;
+DROP TABLE IF EXISTS Possui CASCADE;
+DROP TABLE IF EXISTS Trabalha CASCADE;
+
 INSERT INTO Turma (dsc_turma) VALUES ('info 1'), ('info 2'), ('info 3'), ('mec 1'), ('mec 2');
 
 INSERT INTO Dia_Semana (dsc_dia_semana) VALUES ('segunda-feira'), ('terça-feira'), ('quarta-feira'), ('quinta-feira'), ('sexta-feira'), ('sábado'), ('domingo');
