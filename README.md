@@ -126,8 +126,8 @@ a) inclusão das instruções de criacão das estruturas em SQL/DDL
 
 ### 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS <br>
 
-![Inserts](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Inserts.png)
-[Inserts](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Inserts.sql)
+![Inserts](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Inserts.png) <br>
+[Inserts](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Inserts.sql?raw=true) <br>
 
 ### 12. TABELAS E PRINCIPAIS CONSULTAS <br>
 
