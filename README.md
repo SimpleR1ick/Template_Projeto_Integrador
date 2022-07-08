@@ -84,7 +84,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 #### Pricipais Fluxos de Informação:
 
-- Usuario
+- Usuario x Evento
 - Aula
 
 ![Imagem Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
