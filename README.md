@@ -128,11 +128,11 @@ a) inclusão das instruções de criacão das estruturas em SQL/DDL
 
 a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
 (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
+[Inserts](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Inserts.sql)
 
 <br> + insert para dados a serem inseridos)
 b) Criar um novo banco de dados para testar a restauracao
 (em caso de falha na restauração o grupo não pontuará neste quesito)
-c) formato .SQL
 
 ### 12. TABELAS E PRINCIPAIS CONSULTAS <br>
 
