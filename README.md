@@ -110,24 +110,24 @@ c) Backlog (caso solicitado)
 
 ### 9. MODELO LÓGICO <br>
 
-    a) inclusão do esquema lógico do banco de dados
-    ![Imagem Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.png) <br>
-    [Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.brM3?raw=true) <br>
+a) inclusão do esquema lógico do banco de dados
+![Imagem Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.png) <br>
+[Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.brM3?raw=true) <br>
     
-    b) verificação de correspondencia com o modelo conceitual
-    (não serão aceitos modelos que não estejam em conformidade)
+b) verificação de correspondencia com o modelo conceitual
+(não serão aceitos modelos que não estejam em conformidade)
 
 ### 10. MODELO FÍSICO <br>
 
-    a) inclusão das instruções de criacão das estruturas em SQL/DDL
-    (criação de tabelas, alterações, etc..)
-    ![Imagem Modelo Físico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Imagem%20Modelo%20F%C3%ACsico.png) <br>
-    [Modelo Físico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20F%C3%ADsico%20(Postgresql).sql?raw=true) <br>
+a) inclusão das instruções de criacão das estruturas em SQL/DDL
+(criação de tabelas, alterações, etc..)
+![Imagem Modelo Físico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Imagem%20Modelo%20F%C3%ACsico.png) <br>
+[Modelo Físico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20F%C3%ADsico%20(Postgresql).sql?raw=true) <br>
 
 ### 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS <br>
 
-    a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-    (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
+a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+(Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
 
 <br> + insert para dados a serem inseridos)
 b) Criar um novo banco de dados para testar a restauracao
