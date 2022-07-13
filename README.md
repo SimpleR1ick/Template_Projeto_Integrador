@@ -105,7 +105,7 @@ a) Historia de usuários vs protótipo (mockup)<br>
 b) Protótipo vs Modelo conceitual (não serão aceitos modelos que não estejam em conformidade) <br>
 
 ![Imagem Rastreabilidade 2](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade%20Modelo%20Conceitual%20x%20P%C3%A1ginas.png) <br>
-[Rastreabilidade Modelo Conceitual x Páginas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade%20HU%20x%20P%C3%A1ginas.pdf?raw=true) <br>
+[Rastreabilidade Modelo Conceitual x Páginas](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Rastreabilidade%20Modelo%20Conceitual%20x%20P%C3%A1ginas.pdf?raw=true) <br>
 
 c) Backlog (caso solicitado)
 
