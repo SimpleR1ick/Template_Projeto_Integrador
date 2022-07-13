@@ -47,7 +47,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 7. Eu, Maria Eduarda, quero saber todos os horários de atendimento dos professores para tirar dúvidas com eles.
 8. Eu, Maria Eduarda, quero saber os horários de atendimento dos departamentos para saber quando posso ir e resolver meus problemas.
 
-[PDF das Histórias de Usuário](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Personas/Histórias%20de%20Usuário.pdf?raw=true)
+[PDF das Histórias de Usuário](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Hist%C3%B3rias%20de%20Usu%C3%A1rio%20.pdf?raw=true)
 
 <br>
 
