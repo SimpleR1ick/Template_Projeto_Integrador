@@ -65,7 +65,7 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 - Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuário, e seu email.
 - Relatório das salas usadas por cada turma, professor e servidor.
 - Relatório dos contatos dos servidores, e seus horários de atendimento e os contatos dos professores e suas regras de sala.
-- Relatório de quais turmas mais utilizam o Manual do Calouro e as funcionalidades mais acessadas.
+- Relatório de quais turmas mais utilizam o Manual do Calouro.
 - Relatório da porcentagem e número absoluto de alunos, servidores e professores que usam o Manual do Calouro.
 
 
