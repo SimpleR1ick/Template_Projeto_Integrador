@@ -80,16 +80,16 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 #### Principais Entidades: <br>
 
 - Usuario
-- Turma
-- Aula
+- Aluno
+- Servidor
 
 #### Pricipais Fluxos de Informação:
 
 - Usuario x Evento
 - Aula
 
-![Imagem Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png) <br>
-[Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro.png?raw=true) <br>
+![Imagem Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Conceitual.png) <br>
+[Modelo Conceitual](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20Conceitual.brM3?raw=true) <br>
 
 #### 7.1 Descrição dos dados
 
