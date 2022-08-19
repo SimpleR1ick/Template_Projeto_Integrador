@@ -1,45 +1,154 @@
-DROP TABLE IF EXISTS Turma CASCADE;
-DROP TABLE IF EXISTS Dia_Semana CASCADE;
-DROP TABLE IF EXISTS Horario CASCADE;
-DROP TABLE IF EXISTS Sala CASCADE;
-DROP TABLE IF EXISTS Eventos CASCADE;
-DROP TABLE IF EXISTS Disciplina CASCADE;
-DROP TABLE IF EXISTS Tipo_contato CASCADE;
-DROP TABLE IF EXISTS Usuario CASCADE;
-DROP TABLE IF EXISTS Professor CASCADE;
-DROP TABLE IF EXISTS Servidor CASCADE;
-DROP TABLE IF EXISTS Aula CASCADE;
-DROP TABLE IF EXISTS Pertence CASCADE;
-DROP TABLE IF EXISTS Tem CASCADE;
-DROP TABLE IF EXISTS Possui CASCADE;
-DROP TABLE IF EXISTS Trabalha CASCADE;
+INSERT INTO usuario (nom_usuario, email, senha, acesso) VALUES
+    ('admin', 'mdc@ifes.edu.br', '21232f297a57a5a743894a0e4a801fc3', 0); -- admin
 
-INSERT INTO Turma (dsc_turma) VALUES ('info 1'), ('info 2'), ('info 3'), ('mec 1'), ('mec 2');
+INSERT INTO usuario (nom_usuario, email, senha) VALUES
+    ('Henrique', 'henriquedalmagro@outlook.com', 'a1f925a7b5b70b7b3f7fe2208513e10f'), -- 123 
+    ('Maria', 'mariaeduarda@gmail.com', 'd481dbf8fcb6838a7e5dea0ca8e16d8a'), -- fuckingpassword
+    ('Rafael', 'rafaelbarros@hotmailcom', 'caf1a3dfb505ffed0d024130f58c5cfa'), -- 321
+    ('Moisés', 'moisesomena@ifes.edu.br', '72c7d5bed34eb9dc055ef287eaf862ad'), -- ifes2022
+    ('Raphael', 'rbranco@yahoo.com', 'e8d95a51f3af4a3b134bf6bb680a213a'); -- senha
 
-INSERT INTO Dia_Semana (dsc_dia_semana) VALUES ('segunda-feira'), ('terça-feira'), ('quarta-feira'), ('quinta-feira'), ('sexta-feira'), ('sábado'), ('domingo');
+INSERT INTO servidor (fk_usuario_id_usuario, fk_sala_id_sala) VALUES 
+    (5, 2), -- Moisés
+    (6, 1); -- CAE
 
-INSERT INTO Horario (hora_inicio, hora_fim) VALUES ('07:30:00', '08:20:00'), ('08:20:00', '09:10:00'), ('09:10:00', '09:30:00'), ('09:30:00', '10:20:00'), ('10:20:00', '11:10:00');
+INSERT INTO aluno (num_matricula, fk_usuario_id_usuario, fk_turma_id_turma) VALUES
+    ('20201tiimi0365', 1, 6), -- Henrique
+    ('20201tiimi0152', 2, 6), -- Duda
+    ('20201tiimi0160', 3, 6); -- Rafael
 
-INSERT INTO Sala (dsc_sala) VALUES ('901T'), ('103'), ('104'), ('105'), ('pedagogia'), ('722');
+INSERT INTO dia_semana (dsc_dia_semana) VALUES
+    ('Domingo'),
+    ('Segunda-feira'),
+    ('Terça-feira'),
+    ('Quarta-feira'),
+    ('Quinta-feira'),
+    ('Sexta-feira'),
+    ('Sabado');
 
-INSERT INTO Usuario (ativo, acesso, nome, login, senha, img_perfil) VALUES (1, 1, 'Maria', 'maria@gmail.com', 'fuckingpassword', NULL), (1, 1, 'Henrique', 'rick@outlook.com', '1234', 'https://lh3.googleusercontent.com/a-/AOh14Ghl5PxugmyxuocgeVa6FFt9FxnLddaXHtZ15TEZGA=s64-p-k-rw-no'), (1, 1, 'Jonathan', 'jona@hotmail.com', 'password', NULL), (1, 2, 'Moisés', '20matar@gmail.com', 'fucking', NULL), (1, 3, 'Raphael', 'rbranco@yahoo.com', 'bonoro', NULL);
+INSERT INTO horario_aula (hora_aula_inicio, hora_aula_fim) VALUES
+    ('07:30:00', '08:20:00'),
+    ('08:20:00', '09:10:00'),
+    ('09:30:00', '10:20:00'),
+    ('10:20:00', '11:10:00'),
+    ('11:20:00', '12:10:00'),
+    ('12:10:00', '13:00:00');
 
-INSERT INTO Eventos (data_evento, dsc_evento, fk_Usuario_id_usuario) VALUES ('2022-05-08 11:10:00', 'Prova de biologia', 3), ('2022-04-10 08:20:00', 'OBMEP', 2), ('2022-06-08 13:00:00', 'Prova recuperação matemática', 5), ('2022-11-27 07:30:00', 'Expedição IFES', 4), ('2022-10-11 10:20:00', 'Laboratório de química', 1);
+INSERT INTO disciplina (dsc_disciplina) VALUES
+    ("BIO"),                -- 1
+    ("DES SIST"),           -- 2
+    ("DISP MOV"),           -- 3
+    ("ELET BAS"),           -- 4 
+    ("Empreendedorismo"),   -- 5
+    ("FILOS"),              -- 6
+    ("MAT"),                -- 7
+    ("PORTUG"),             -- 8
+    ("PROG WEB II"),        -- 9
+    ("Projeto integrador"),  -- 10
+    ("QUI"),                -- 11
+    ("SOCIOL");             -- 12
 
-INSERT INTO Disciplina (dsc_disc) VALUES ('matemática'), ('geografia'), ('história'), ('programação I'), ('programação II');
+INSERT INTO sala_aula (num_sala_aula) VALUES 
+    ('SAL 105'),
+    ('LAB 208t'),
+    ('LAB 903t'),
+    ('LAB 901t');
 
-INSERT INTO Tipo_contato (dsc_tipo) VALUES ('telefone'), ('e-mail'), ('celular');
+INSERT INTO evento (dat_evento, nom_evento, dsc_evento) VALUES 
+    ('2022-05-08 11:10:00', 'Prova de Biologia', 'Reprodução Humana'),
+    ('2022-04-10 08:20:00', 'OBMEP', 'Estudar'),
+    ('2022-06-08 13:00:00', 'Prova de Matemática', 'Recuperação'),
+    ('2022-11-27 07:30:00', 'Expedição IFES', ''),
+    ('2022-10-11 10:20:00', 'Laboratório de Química', '');
 
-INSERT INTO Professor (regras, fk_Usuario_id_usuario) VALUES ('Não sair de sala sem pedir, proibido celular, perguntas só no final da aula', 4);
+INSERT INTO turma (num_modulo, fk_curso_id_curso) VALUES
+    (1, 1),
+    (2, 1),
+    (3, 1),
+    (4, 1),
+    (5, 1),
+    (6, 1);
 
-INSERT INTO Servidor (horario_inicio, horario_fim, fk_Usuario_id_usuario) VALUES ('07:00:00', '07:30:00', 4), ('08:00:00', '18:00:00', 5), ('13:10:00', '14:00:00', 4);
+INSERT INTO sala (num_sala) VALUES
+    ('101'),
+    ('707');
 
-INSERT INTO Aula (fk_Horario_id_horario, fk_Dia_Semana_id_dia_semana, fk_Turma_id_turma, fk_Disciplina_id_disc, fk_Sala_id_sala) VALUES (1, 4, 3, 1 , 2), (2, 5, 2, 5, 1), (1,	2, 5, 3, 3), (4, 3, 1, 4, 2), (5, 1, 2, 5, 4);
+INSERT INTO tipo_contato (dsc_tipo) VALUES
+    ('Telefone'),
+    ('E-mail');
 
-INSERT INTO Pertence (fk_Usuario_id_usuario, fk_Turma_id_turma) VALUES (1, 4), (2, 3), (3 ,1), (4, 2), (4, 5);
+INSERT INTO horario (hora_inicio, hora_fim) VALUES
+    ('10:30:00', '11:30:00');
 
-INSERT INTO Tem (dsc_contato, fk_Usuario_id_usuario, fk_Tipo_contato_id_tipo) VALUES ('(27) 33374351', 5, 1), ('cae@ifes.com', 5, 2), ('prof.moisesomena@gmail.com', 4, 2), ('(27) 999987373', 4, 3), ('(27) 33466942', 4, 1);
+INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
+    ('Não xingar porra!', 5);
 
-INSERT INTO Possui (fk_Usuario_id_usuario, fk_Sala_id_sala) VALUES (4, 6), (5,5);
+INSERT INTO administrativo (fk_servidor_fk_usuario_id_usuario, fk_setor_id_setor) VALUES
+    (6, 1);
 
-INSERT INTO Trabalha (fk_Servidor_fk_Usuario_id_usuario, fk_Dia_Semana_id_dia_semana) VALUES (4, 2), (4, 4), (5, 1), (5, 5);
+INSERT INTO setor (dsc_setor) VALUES
+    ('Coordenadoria de Apoio ao Ensino');
+
+INSERT INTO aula (
+    fk_dia_semana_id_dia_semana,
+    fk_horario_aula_id_horario_aula,
+    fk_turma_id_turma,
+    fk_sala_aula_id_sala_aula,
+    fk_disciplina_id_disciplina
+    ) VALUES (
+        -- Segunda-feira
+        (2, 1, 6, 1, 11),
+        (2, 2, 6, 1, 11),
+        (2, 3, 6, 2, 9),
+        (2, 4, 6, 2, 9),
+        (2, 5, 6, 2, 9),
+        (2, 6, 6, 1, 7),
+
+        -- Terça-feira
+        (3, 1, 6, 1, 1),
+        (3, 2, 6, 1, 1),
+        (3, 3, 6, 1, 1),
+        (3, 4, 6, 1, 5),
+        (3, 5, 6, 1, 5),
+        (3, 6, 6, 1, 12),
+
+        -- Quarta-feira
+        (4, 1, 6, 1, 8),
+        (4, 2, 6, 1, 11),
+        (4, 3, 6, 1, 7),
+        (4, 4, 6, 1, 7),
+        (4, 5, 6, 1, 4),
+        (4, 6, 6, 1, 4),
+
+        -- Quinta-feira
+        (5, 2, 6, 1, 6),
+        (5, 3, 6, 1, 8),
+        (5, 4, 6, 1, 8),
+        (5, 5, 6, 3, 2),
+        (5, 6, 6, 3, 2),
+
+        -- Sexta-feira
+        (6, 2, 6, 3, 3),
+        (6, 3, 6, 3, 3),
+        (6, 4, 6, 4, 10),
+        (6, 5, 6, 4, 10),
+        (6, 6, 6, 4, 10)
+    );
+
+INSERT INTO usuario_evento (fk_usuario_id_usuario, fk_evento_id_evento) VALUES
+    (2, 1), -- Henrique
+    (3, 2), -- Duda
+    (3, 3); -- Rafael
+
+INSERT INTO professor_disciplina (fk_professor_fk_servidor_fk_usuario_id_usuario, fk_disciplina_id_disciplina) VALUES
+    (5, 10);
+
+INSERT INTO contato (dsc_contato, fk_servidor_fk_usuario_id_usuario, fk_tipo_contato_id_tipo) VALUES
+    ('(27) 999666-0410', 5, 1);
+
+INSERT INTO servidor_horario (fk_servidor_fk_usuario_id_usuario, fk_horario_id_horario) VALUES
+    (5, 1);
+
+INSERT INTO curso (dsc_curso) VALUES
+    ('Info'),
+    ('Mec');
