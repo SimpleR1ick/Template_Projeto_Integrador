@@ -32,7 +32,6 @@ CREATE TABLE usuario (
     img_perfil VARCHAR(300) DEFAULT NULL,
     ativo BOOLEAN NOT NULL DEFAULT 'f',
     add_data TIMESTAMP DEFAULT NULL,
-    chave_salt VARCHAR(255) DEFAULT NULL,
     fk_acesso_id_acesso SERIAL NOT NULL DEFAULT 2
 );
 
