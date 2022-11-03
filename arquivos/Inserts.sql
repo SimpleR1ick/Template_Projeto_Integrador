@@ -153,8 +153,8 @@ INSERT INTO aluno (num_matricula, fk_usuario_id_usuario, fk_turma_id_turma) VALU
     ('20201tiimi0164', 21, 15); -- Roger
 
 INSERT INTO grupo (dsc_grupo, fk_turma_id_turma) VALUES
-	('A', 1),
-    ('B', 1);
+	('A', 6),
+    ('B', 6);
 
 INSERT INTO grupo_aluno (fk_aluno_fk_usuario_id_usuario, fk_grupo_id_grupo) VALUES
 	(2, 2),
