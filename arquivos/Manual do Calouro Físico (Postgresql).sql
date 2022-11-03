@@ -148,7 +148,8 @@ CREATE TABLE sala (
 CREATE TABLE horario (
 	id_horario SERIAL PRIMARY KEY,
     hora_inicio TIME,
-    hora_fim TIME
+    hora_fim TIME,
+    fk_dia_semana_id_semana SERIAL
 );
 
 CREATE TABLE setor (
@@ -301,6 +302,10 @@ ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_3
     FOREIGN KEY (fk_setor_id_setor)
     REFERENCES setor (id_setor)
     ON DELETE CASCADE;
+
+ALTER TABLE horario ADD CONSTRAINT FK_horario_2
+	FOREIGN KEY (fk_dia_semana_id_dia_semana)
+    REFERENCES dia_semana (id_dia_semana);
 
 ALTER TABLE grupo ADD CONSTRAINT FK_grupo_2
     FOREIGN KEY (fk_turma_id_turma)
