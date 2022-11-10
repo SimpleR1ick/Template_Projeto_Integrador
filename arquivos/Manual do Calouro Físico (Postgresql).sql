@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS sala CASCADE;
 DROP TABLE IF EXISTS horario CASCADE;
 DROP TABLE IF EXISTS setor CASCADE;
 DROP TABLE IF EXISTS disciplina CASCADE;
-DROP TABLE IF EXISTS state CASCADE;
+DROP TABLE IF EXISTS nivel CASCADE;
 DROP TABLE IF EXISTS grupo CASCADE;
 DROP TABLE IF EXISTS grupo_aluno CASCADE;
 DROP TABLE IF EXISTS grupo_aula CASCADE;
@@ -29,19 +29,19 @@ DROP TABLE IF EXISTS grupo_aula CASCADE;
 /* Modelo Físico */
 
 CREATE TABLE acesso (
-	id_acesso SERIAL PRIMARY KEY,
+    id_acesso SERIAL PRIMARY KEY,
     dsc_acesso VARCHAR(10)
 );
 
 CREATE TABLE evento (
-	id_evento SERIAL PRIMARY KEY,
+    id_evento SERIAL PRIMARY KEY,
     dsc_evento VARCHAR(100),
     dat_evento TIMESTAMP,
     fk_campus_id_campus SERIAL
 );
 
 CREATE TABLE campus (
-	id_campus SERIAL PRIMARY KEY,
+    id_campus SERIAL PRIMARY KEY,
     dsc_campus VARCHAR(50)
 );
 
@@ -53,61 +53,60 @@ CREATE TABLE usuario (
     img_perfil VARCHAR(300),
     add_data TIMESTAMP,
     fk_acesso_id_acesso SERIAL,
-    fk_state_id_state SERIAL
+    fk_nivel_id_nivel SERIAL
 );
 
 CREATE TABLE campus_curso (
-	fk_campus_id_campus SERIAL,
+    fk_campus_id_campus SERIAL,
     fk_curso_id_curso SERIAL
 );
 
 CREATE TABLE aluno (
-	num_matricula VARCHAR(20),
-    fk_usuario_id_usuario SERIAL PRIMARY KEY,
-    fk_turma_id_turma SERIAL
+    num_matricula VARCHAR(20),
+    fk_usuario_id_usuario SERIAL PRIMARY KEY
 );
 
 CREATE TABLE chave (
-	chave_confirma VARCHAR(255),
+    chave_confirma VARCHAR(255),
     fk_usuario_id_usuario SERIAL
 );
 
 CREATE TABLE curso (
-	id_curso SERIAL PRIMARY KEY,
+    id_curso SERIAL PRIMARY KEY,
     dsc_curso VARCHAR(50)
 );
 
 CREATE TABLE contato (
-	fk_servidor_fk_usuario_id_usuario SERIAL,
+    fk_servidor_fk_usuario_id_usuario SERIAL,
     fk_tipo_contato_id_tipo SERIAL,
     dsc_contato VARCHAR(50),
     id_contato SERIAL PRIMARY KEY
 );
 
 CREATE TABLE servidor (
-	fk_usuario_id_usuario SERIAL PRIMARY KEY,
+    fk_usuario_id_usuario SERIAL PRIMARY KEY,
     fk_sala_id_sala SERIAL
 );
 
 CREATE TABLE turma (
-	id_turma SERIAL PRIMARY KEY,
+    id_turma SERIAL PRIMARY KEY,
     num_modulo INT,
     fk_curso_id_curso SERIAL
 );
 
 CREATE TABLE horario_aula (
-	id_horario_aula SERIAL PRIMARY KEY,
+    id_horario_aula SERIAL PRIMARY KEY,
     hora_aula_inicio TIME,
     hora_aula_fim TIME
 );
 
 CREATE TABLE tipo_contato (
-	id_tipo SERIAL PRIMARY KEY,
+    id_tipo SERIAL PRIMARY KEY,
     dsc_tipo VARCHAR(30)
 );
 
 CREATE TABLE aula (
-	id_aula SERIAL PRIMARY KEY,
+    id_aula SERIAL PRIMARY KEY,
     fk_dia_semana_id_dia_semana SERIAL,
     fk_horario_aula_id_horario_aula SERIAL,
     fk_sala_aula_id_sala_aula SERIAL,
@@ -116,113 +115,106 @@ CREATE TABLE aula (
 );
 
 CREATE TABLE professor (
-	regras TEXT,
+    regras TEXT,
     fk_servidor_fk_usuario_id_usuario SERIAL PRIMARY KEY
 );
 
 CREATE TABLE dia_semana (
-	id_dia_semana SERIAL PRIMARY KEY,
+    id_dia_semana SERIAL PRIMARY KEY,
     dsc_dia_semana VARCHAR(15)
 );
 
 CREATE TABLE servidor_horario (
-	fk_servidor_fk_usuario_id_usuario SERIAL,
+    fk_servidor_fk_usuario_id_usuario SERIAL,
     fk_horario_id_horario SERIAL
 );
 
 CREATE TABLE administrativo (
-	fk_servidor_fk_usuario_id_usuario SERIAL PRIMARY KEY,
+    fk_servidor_fk_usuario_id_usuario SERIAL PRIMARY KEY,
     fk_setor_id_setor SERIAL
 );
 
 CREATE TABLE sala_aula (
-	id_sala_aula SERIAL PRIMARY KEY,
+    id_sala_aula SERIAL PRIMARY KEY,
     num_sala_aula VARCHAR(10)
 );
 
 CREATE TABLE sala (
-	id_sala SERIAL PRIMARY KEY,
+    id_sala SERIAL PRIMARY KEY,
     num_sala VARCHAR(10)
 );
 
 CREATE TABLE horario (
-	id_horario SERIAL PRIMARY KEY,
+    id_horario SERIAL PRIMARY KEY,
     hora_inicio TIME,
     hora_fim TIME,
-    fk_dia_semana_id_semana SERIAL
+    fk_dia_semana_id_dia_semana SERIAL
 );
 
 CREATE TABLE setor (
-	id_setor SERIAL PRIMARY KEY,
+    id_setor SERIAL PRIMARY KEY,
     dsc_setor VARCHAR(50)
 );
 
 CREATE TABLE disciplina (
-	id_disciplina SERIAL PRIMARY KEY,
+    id_disciplina SERIAL PRIMARY KEY,
     dsc_disciplina VARCHAR(30)
 );
 
-CREATE TABLE state (
-	id_state SERIAL PRIMARY KEY,
-    dsc_state VARCHAR(30)
+CREATE TABLE nivel (
+    id_nivel SERIAL PRIMARY KEY,
+    dsc_nivel VARCHAR(30)
 );
 
 CREATE TABLE grupo (
-	id_grupo SERIAL PRIMARY KEY,
+    id_grupo SERIAL PRIMARY KEY,
     dsc_grupo CHAR(1),
     fk_turma_id_turma SERIAL
 );
 
 CREATE TABLE grupo_aluno (
-	fk_aluno_fk_usuario_id_usuario SERIAL,
+    fk_aluno_fk_usuario_id_usuario SERIAL,
     fk_grupo_id_grupo SERIAL
 );
 
 CREATE TABLE grupo_aula (
-	fk_grupo_id_grupo SERIAL,
+    fk_grupo_id_grupo SERIAL,
     fk_aula_id_aula SERIAL
 );
-
+ 
 ALTER TABLE evento ADD CONSTRAINT FK_evento_2
-	FOREIGN KEY (fk_campus_id_campus)
+    FOREIGN KEY (fk_campus_id_campus)
     REFERENCES campus (id_campus)
     ON DELETE CASCADE;
  
 ALTER TABLE usuario ADD CONSTRAINT FK_usuario_2
     FOREIGN KEY (fk_acesso_id_acesso)
-    REFERENCES acesso (id_acesso)
-    ON DELETE CASCADE;
-
+    REFERENCES acesso (id_acesso);
+ 
 ALTER TABLE usuario ADD CONSTRAINT FK_usuario_3
-	FOREIGN KEY (fk_state_id_state)
-    REFERENCES state (id_state)
-    ON DELETE CASCADE;
-    
+    FOREIGN KEY (fk_nivel_id_nivel)
+    REFERENCES nivel (id_nivel);
+ 
+ALTER TABLE campus_curso ADD CONSTRAINT FK_campus_curso_1
+    FOREIGN KEY (fk_campus_id_campus)
+    REFERENCES campus (id_campus)
+    ON DELETE RESTRICT;
+ 
 ALTER TABLE campus_curso ADD CONSTRAINT FK_campus_curso_2
-	FOREIGN KEY (fk_campus_id_campus)
-	REFERENCES campus (id_campus)
-    ON DELETE CASCADE;
-    
-ALTER TABLE campus_curso ADD CONSTRAINT FK_campus_curso_3
-	FOREIGN KEY (fk_cruso_id_curso)
+    FOREIGN KEY (fk_curso_id_curso)
     REFERENCES curso (id_curso)
-    ON DELETE CASCADE;
-
+    ON DELETE RESTRICT;
+ 
 ALTER TABLE aluno ADD CONSTRAINT FK_aluno_2
     FOREIGN KEY (fk_usuario_id_usuario)
     REFERENCES usuario (id_usuario)
     ON DELETE CASCADE;
  
-ALTER TABLE aluno ADD CONSTRAINT FK_aluno_3
-    FOREIGN KEY (fk_turma_id_turma)
-    REFERENCES turma (id_turma)
-    ON DELETE CASCADE;
-
-ALTER TABLE chave ADD CONSTRAINT FK_chave_2
+ALTER TABLE chave ADD CONSTRAINT FK_chave_1
     FOREIGN KEY (fk_usuario_id_usuario)
     REFERENCES usuario (id_usuario)
     ON DELETE CASCADE;
-
+ 
 ALTER TABLE contato ADD CONSTRAINT FK_contato_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
@@ -230,9 +222,8 @@ ALTER TABLE contato ADD CONSTRAINT FK_contato_2
  
 ALTER TABLE contato ADD CONSTRAINT FK_contato_3
     FOREIGN KEY (fk_tipo_contato_id_tipo)
-    REFERENCES tipo_contato (id_tipo)
-    ON DELETE SET NULL;
-
+    REFERENCES tipo_contato (id_tipo);
+ 
 ALTER TABLE servidor ADD CONSTRAINT FK_servidor_2
     FOREIGN KEY (fk_usuario_id_usuario)
     REFERENCES usuario (id_usuario)
@@ -242,47 +233,37 @@ ALTER TABLE servidor ADD CONSTRAINT FK_servidor_3
     FOREIGN KEY (fk_sala_id_sala)
     REFERENCES sala (id_sala)
     ON DELETE CASCADE;
-
+ 
 ALTER TABLE turma ADD CONSTRAINT FK_turma_2
     FOREIGN KEY (fk_curso_id_curso)
     REFERENCES curso (id_curso)
     ON DELETE RESTRICT;
-
+ 
 ALTER TABLE aula ADD CONSTRAINT FK_aula_2
-    FOREIGN KEY (fk_grupo_id_grupo)
-    REFERENCES grupo (id_grupo)
-    ON DELETE NO ACTION;
+    FOREIGN KEY (fk_dia_semana_id_dia_semana)
+    REFERENCES dia_semana (id_dia_semana);
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_3
-    FOREIGN KEY (fk_dia_semana_id_dia_semana)
-    REFERENCES dia_semana (id_dia_semana)
-    ON DELETE NO ACTION;
+    FOREIGN KEY (fk_horario_aula_id_horario_aula)
+    REFERENCES horario_aula (id_horario_aula);
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_4
-    FOREIGN KEY (fk_horario_aula_id_horario_aula)
-    REFERENCES horario_aula (id_horario_aula)
-    ON DELETE NO ACTION;
+    FOREIGN KEY (fk_sala_aula_id_sala_aula)
+    REFERENCES sala_aula (id_sala_aula);
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_5
-    FOREIGN KEY (fk_sala_aula_id_sala_aula)
-    REFERENCES sala_aula (id_sala_aula)
-    ON DELETE NO ACTION;
+    FOREIGN KEY (fk_disciplina_id_disciplina)
+    REFERENCES disciplina (id_disciplina);
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_6
-    FOREIGN KEY (fk_disciplina_id_disciplina)
-    REFERENCES disciplina (id_disciplina)
-    ON DELETE NO ACTION;
-
-ALTER TABLE aula ADD CONSTRAINT FK_aula_7
-	FOREIGN KEY (fk_professor_fk_servidor_fk_usuario_id_usuario)
-    REFERENCES professor (fk_servidor_fk_usuario_id_usuario)
-    ON DELETE NO ACTION;
-
+    FOREIGN KEY (fk_professor_fk_servidor_fk_usuario_id_usuario)
+    REFERENCES professor (fk_servidor_fk_usuario_id_usuario);
+ 
 ALTER TABLE professor ADD CONSTRAINT FK_professor_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
     ON DELETE CASCADE;
-
+ 
 ALTER TABLE servidor_horario ADD CONSTRAINT FK_servidor_horario_1
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
@@ -292,7 +273,7 @@ ALTER TABLE servidor_horario ADD CONSTRAINT FK_servidor_horario_2
     FOREIGN KEY (fk_horario_id_horario)
     REFERENCES horario (id_horario)
     ON DELETE SET NULL;
-
+ 
 ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
@@ -302,22 +283,14 @@ ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_3
     FOREIGN KEY (fk_setor_id_setor)
     REFERENCES setor (id_setor)
     ON DELETE CASCADE;
-
+ 
 ALTER TABLE horario ADD CONSTRAINT FK_horario_2
-	FOREIGN KEY (fk_dia_semana_id_dia_semana)
+    FOREIGN KEY (fk_dia_semana_id_dia_semana)
     REFERENCES dia_semana (id_dia_semana);
-
+ 
 ALTER TABLE grupo ADD CONSTRAINT FK_grupo_2
     FOREIGN KEY (fk_turma_id_turma)
     REFERENCES turma (id_turma);
- 
-ALTER TABLE grupo ADD CONSTRAINT FK_grupo_3
-    FOREIGN KEY (fk_professor_fk_servidor_fk_usuario_id_usuario)
-    REFERENCES professor (fk_servidor_fk_usuario_id_usuario);
- 
-ALTER TABLE grupo ADD CONSTRAINT FK_grupo_4
-    FOREIGN KEY (fk_disciplina_id_disciplina)
-    REFERENCES disciplina (id_disciplina);
  
 ALTER TABLE grupo_aluno ADD CONSTRAINT FK_grupo_aluno_1
     FOREIGN KEY (fk_aluno_fk_usuario_id_usuario)
