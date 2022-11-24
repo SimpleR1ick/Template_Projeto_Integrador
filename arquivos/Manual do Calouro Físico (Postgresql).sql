@@ -56,6 +56,13 @@ CREATE TABLE usuario (
     fk_nivel_id_nivel SERIAL
 );
 
+CREATE TABLE comentario (
+	id_comentario SERIAL PRIMARY KEY,
+    dsc_comentario TEXT,
+    add_data TIMESTAMP,
+    fk_usuario_id_usuario SERIAL
+);
+
 CREATE TABLE campus_curso (
     fk_campus_id_campus SERIAL,
     fk_curso_id_curso SERIAL
@@ -107,6 +114,7 @@ CREATE TABLE tipo_contato (
 
 CREATE TABLE aula (
     id_aula SERIAL PRIMARY KEY,
+    fk_grupo_id_grupo SERIAL,
     fk_dia_semana_id_dia_semana SERIAL,
     fk_horario_aula_id_horario_aula SERIAL,
     fk_sala_aula_id_sala_aula SERIAL,
@@ -136,7 +144,7 @@ CREATE TABLE administrativo (
 
 CREATE TABLE sala_aula (
     id_sala_aula SERIAL PRIMARY KEY,
-    num_sala_aula VARCHAR(10)
+    dsc_sala_aula VARCHAR(10)
 );
 
 CREATE TABLE sala (
@@ -176,11 +184,6 @@ CREATE TABLE grupo_aluno (
     fk_aluno_fk_usuario_id_usuario SERIAL,
     fk_grupo_id_grupo SERIAL
 );
-
-CREATE TABLE grupo_aula (
-    fk_grupo_id_grupo SERIAL,
-    fk_aula_id_aula SERIAL
-);
  
 ALTER TABLE evento ADD CONSTRAINT FK_evento_2
     FOREIGN KEY (fk_campus_id_campus)
@@ -194,6 +197,10 @@ ALTER TABLE usuario ADD CONSTRAINT FK_usuario_2
 ALTER TABLE usuario ADD CONSTRAINT FK_usuario_3
     FOREIGN KEY (fk_nivel_id_nivel)
     REFERENCES nivel (id_nivel);
+    
+ALTER TABLE comentario ADD CONSTRAINT FK_comentario_2
+	FOREIGN KEY (fk_usuario_id_usuario)
+    REFERENCES usuario (id_usuario);
  
 ALTER TABLE campus_curso ADD CONSTRAINT FK_campus_curso_1
     FOREIGN KEY (fk_campus_id_campus)
@@ -238,24 +245,28 @@ ALTER TABLE turma ADD CONSTRAINT FK_turma_2
     FOREIGN KEY (fk_curso_id_curso)
     REFERENCES curso (id_curso)
     ON DELETE RESTRICT;
- 
+
 ALTER TABLE aula ADD CONSTRAINT FK_aula_2
+	FOREIGN KEY (fk_grupo_id_grupo)
+    REFERENCES grupo (id_grupo);
+
+ALTER TABLE aula ADD CONSTRAINT FK_aula_3
     FOREIGN KEY (fk_dia_semana_id_dia_semana)
     REFERENCES dia_semana (id_dia_semana);
  
-ALTER TABLE aula ADD CONSTRAINT FK_aula_3
+ALTER TABLE aula ADD CONSTRAINT FK_aula_4
     FOREIGN KEY (fk_horario_aula_id_horario_aula)
     REFERENCES horario_aula (id_horario_aula);
  
-ALTER TABLE aula ADD CONSTRAINT FK_aula_4
+ALTER TABLE aula ADD CONSTRAINT FK_aula_5
     FOREIGN KEY (fk_sala_aula_id_sala_aula)
     REFERENCES sala_aula (id_sala_aula);
  
-ALTER TABLE aula ADD CONSTRAINT FK_aula_5
+ALTER TABLE aula ADD CONSTRAINT FK_aula_6
     FOREIGN KEY (fk_disciplina_id_disciplina)
     REFERENCES disciplina (id_disciplina);
  
-ALTER TABLE aula ADD CONSTRAINT FK_aula_6
+ALTER TABLE aula ADD CONSTRAINT FK_aula_7
     FOREIGN KEY (fk_professor_fk_servidor_fk_usuario_id_usuario)
     REFERENCES professor (fk_servidor_fk_usuario_id_usuario);
  
@@ -299,11 +310,3 @@ ALTER TABLE grupo_aluno ADD CONSTRAINT FK_grupo_aluno_1
 ALTER TABLE grupo_aluno ADD CONSTRAINT FK_grupo_aluno_2
     FOREIGN KEY (fk_grupo_id_grupo)
     REFERENCES grupo (id_grupo);
- 
-ALTER TABLE grupo_aula ADD CONSTRAINT FK_grupo_aula_1
-    FOREIGN KEY (fk_grupo_id_grupo)
-    REFERENCES grupo (id_grupo);
- 
-ALTER TABLE grupo_aula ADD CONSTRAINT FK_grupo_aula_2
-    FOREIGN KEY (fk_aula_id_aula)
-    REFERENCES aula (id_aula);
