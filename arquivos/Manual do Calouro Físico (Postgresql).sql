@@ -59,7 +59,7 @@ CREATE TABLE usuario (
 CREATE TABLE comentario (
 	id_comentario SERIAL PRIMARY KEY,
     dsc_comentario TEXT,
-    add_data TIMESTAMP,
+    dt_comentario TIMESTAMP,
     fk_usuario_id_usuario SERIAL
 );
 
