@@ -62,11 +62,12 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 
 > O Manual do Calouro poderá fornecer:
 
-- Relatório que informe quais são os usuários, incluindo as seguintes informações: nível de acesso, nome do usuário, e seu email.
-- Relatório das salas usadas por cada turma, professor e servidor.
-- Relatório dos contatos dos servidores, e seus horários de atendimento e os contatos dos professores e suas regras de sala.
-- Relatório de quais turmas mais utilizam o Manual do Calouro.
-- Relatório da porcentagem e número absoluto de alunos, servidores e professores que usam o Manual do Calouro.
+- Relatório que mostre quantos alunos de cada curso estão cadastrados.
+- Relatório que mostre quais salas estão ocupadas em quais horários.
+- Relatório que mostre a quantidade de eventos por mês.atendimento e os contatos dos professores e suas regras de sala.
+- Relatório que mostre todos os contatos de todos os servidores.
+- Relatório que mostre os horários de atendimento de todos os servidores.
+<br>
 
 
 ### 6. TABELA DE DADOS DO SISTEMA:
@@ -132,7 +133,7 @@ a) inclusão das instruções de criacão das estruturas em SQL/DDL
 
 ### 12. TABELAS E PRINCIPAIS CONSULTAS <br>
 
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados. <br>
 
 #### 12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
@@ -143,6 +144,8 @@ Inserir as principais consultas (relativas aos 5 principais relatórios) definid
 a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
 <br>
 b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
+
+[Relatórios](https://colab.research.google.com/drive/19WeCuLLR74YS7bAsyxAbh4NMBTE2JIPm?usp=sharing) <br>
 
 #### 12.3 ANTEPROJETO VERSÃO 1
 
