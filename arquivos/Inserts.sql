@@ -128,9 +128,9 @@ INSERT INTO curso (dsc_curso) VALUES
     ('Iot');
 
 INSERT INTO campus_curso(fk_campus_id_campus, fk_curso_id_curso) VALUES
-    (1,1),
-    (1,2),
-    (1,3);
+    (1, 1),
+    (1, 2),
+    (1, 3);
 
 INSERT INTO turma (num_modulo, fk_curso_id_curso) VALUES
     (1, 1),
@@ -196,7 +196,7 @@ INSERT INTO horario_aula (hora_aula_inicio, hora_aula_fim) VALUES
     ('20:20:00', '21:10:00'), -- 15
     ('21:10:00', '22:00:00'); -- 16
 
-INSERT INTO sala_aula (num_sala_aula) VALUES
+INSERT INTO sala_aula (dsc_sala_aula) VALUES
 	('SAL 103'),  -- 1
     ('SAL 104'),  -- 2
     ('SAL 105'),  -- 3
@@ -236,6 +236,7 @@ INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
     ('Não xingar porra!', 17); -- Moisés Omena
 
 INSERT INTO aula (
+	fk_grupo_id_grupo,
     fk_dia_semana_id_dia_semana,
     fk_horario_aula_id_horario_aula,
     fk_sala_aula_id_sala_aula,
@@ -243,49 +244,49 @@ INSERT INTO aula (
     fk_professor_fk_servidor_fk_usuario_id_usuario
     ) VALUES
         -- Segunda-feira Info 6
-        (2, 1, 3, 11, 6),
-        (2, 2, 3, 11, 6),
-        (2, 3, 7, 9, 7),
-        (2, 4, 7, 9, 7),
-        (2, 5, 7, 9, 7),
-        (2, 6, 3, 7, 8),
+        (1, 2, 1, 3, 11, 6),
+        (1, 2, 2, 3, 11, 6),
+        (1, 2, 3, 7, 9, 7),
+        (1, 2, 4, 7, 9, 7),
+        (1, 2, 5, 7, 9, 7),
+        (1, 2, 6, 3, 7, 8),
 
         -- Terça-feira Info 6
-        (3, 1, 3, 1, 9),
-        (3, 2, 3, 1, 9),
-        (3, 3, 3, 1, 9),
-        (3, 4, 3, 5, 10),
-        (3, 5, 3, 5, 10),
-        (3, 6, 3, 12, 11),
+        (1, 3, 1, 3, 1, 9),
+        (1, 3, 2, 3, 1, 9),
+        (1, 3, 3, 3, 1, 9),
+        (1, 3, 4, 3, 5, 10),
+        (1, 3, 5, 3, 5, 10),
+        (1, 3, 6, 3, 12, 11),
 
         -- Quarta-feira Info 6
-        (4, 1, 3, 8, 12),
-        (4, 2, 3, 11, 6),
-        (4, 3, 3, 7, 8),
-        (4, 4, 3, 7, 8),
-        (4, 5, 3, 4, 13),
-        (4, 6, 3, 4, 13),
+        (1, 4, 1, 3, 8, 12),
+        (1, 4, 2, 3, 11, 6),
+        (1, 4, 3, 3, 7, 8),
+        (1, 4, 4, 3, 7, 8),
+        (1, 4, 5, 3, 4, 13),
+        (1, 4, 6, 3, 4, 13),
 
         -- Quinta-feira Info 6
-        (5, 2, 3, 6, 14),
-        (5, 3, 3, 8, 12),
-        (5, 4, 3, 8, 12),
-        (5, 5, 3, 2, 15),
-        (5, 6, 3, 2, 15),
+        (1, 5, 2, 3, 6, 14),
+        (1, 5, 3, 3, 8, 12),
+        (1, 5, 4, 3, 8, 12),
+        (1, 5, 5, 3, 2, 15),
+        (1, 5, 6, 3, 2, 15),
 
 		-- Sexta-feira Info 6 A
-		(6, 1, 8, 10, 17),
-        (6, 2, 8, 10, 17),
-        (6, 3, 8, 10, 17),
-        (6, 4, 9, 3, 16),
-        (6, 5, 9, 3, 16),
+		(2, 6, 1, 8, 10, 17),
+        (2, 6, 2, 8, 10, 17),
+        (2, 6, 3, 8, 10, 17),
+        (2, 6, 4, 9, 3, 16),
+        (2, 6, 5, 9, 3, 16),
         
         -- Sexta-feira Info 6 B
-		(6, 2, 9, 3, 16),
-		(6, 3, 9, 3, 16),
-        (6, 4, 8, 10, 17),
-        (6, 5, 8, 10, 17),
-		(6, 6, 8, 10, 17);
+		(3, 6, 2, 9, 3, 16),
+        (3, 6, 3, 9, 3, 16),
+        (3, 6, 4, 8, 10, 17),
+        (3, 6, 5, 8, 10, 17),
+		(3, 6, 6, 8, 10, 17);
         
 INSERT INTO grupo_aula (fk_grupo_id_grupo, fk_aula_id_aula) VALUES
 	(1, 1),
