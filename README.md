@@ -81,8 +81,8 @@ b) Histórias de usuário desenvolvidas pelo grupo <br>
 #### Principais Entidades: <br>
 
 - Usuario
-- Aluno
-- Servidor
+- Aula
+- Grupo
 
 #### Pricipais Fluxos de Informação:
 
@@ -114,7 +114,7 @@ c) Backlog (caso solicitado)
 
 a) inclusão do esquema lógico do banco de dados
 ![Imagem Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.png) <br>
-[Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico.brM3?raw=true) <br>
+[Modelo Lógico](https://github.com/TeKel416/Template_Projeto_Integrador/blob/main/arquivos/Manual%20do%20Calouro%20L%C3%B3gico%20Horizontal.brM3?raw=true) <br>
     
 b) verificação de correspondencia com o modelo conceitual
 (não serão aceitos modelos que não estejam em conformidade)
