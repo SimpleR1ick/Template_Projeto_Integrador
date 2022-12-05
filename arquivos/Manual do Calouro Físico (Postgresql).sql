@@ -81,6 +81,7 @@ CREATE TABLE chave (
 
 CREATE TABLE curso (
     id_curso SERIAL PRIMARY KEY,
+    sigla_curso VARCHAR(10),
     dsc_curso VARCHAR(50)
 );
 

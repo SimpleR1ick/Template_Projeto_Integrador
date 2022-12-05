@@ -124,10 +124,10 @@ INSERT INTO evento (dat_evento, dsc_evento, fk_campus_id_campus) VALUES
 	('2022-07-10 11:00:00', 'SIGI', 1),
 	('2022-08-11 13:00:00', 'Reunião do Comitê Estudantil', 1);
 
-INSERT INTO curso (dsc_curso) VALUES
-	('Info'),
-	('Mec'),
-	('Iot');
+INSERT INTO curso (sigla_curso, dsc_curso) VALUES
+	('Info', 'Informática para Internet'),
+	('Mec', 'Mecatrônica'),
+	('Iot', 'Internet das Coisas');
 
 INSERT INTO campus_curso(fk_campus_id_campus, fk_curso_id_curso) VALUES
 	(1, 1),
