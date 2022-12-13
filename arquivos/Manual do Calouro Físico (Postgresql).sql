@@ -202,7 +202,8 @@ ALTER TABLE usuario ADD CONSTRAINT FK_usuario_3
     
 ALTER TABLE comentario ADD CONSTRAINT FK_comentario_2
 	FOREIGN KEY (fk_usuario_id_usuario)
-    REFERENCES usuario (id_usuario);
+    REFERENCES usuario (id_usuario)
+    ON DELETE CASCADE;
  
 ALTER TABLE campus_curso ADD CONSTRAINT FK_campus_curso_1
     FOREIGN KEY (fk_campus_id_campus)
@@ -227,7 +228,7 @@ ALTER TABLE chave ADD CONSTRAINT FK_chave_1
 ALTER TABLE contato ADD CONSTRAINT FK_contato_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
-    ON DELETE RESTRICT;
+    ON DELETE CASCADE;
  
 ALTER TABLE contato ADD CONSTRAINT FK_contato_3
     FOREIGN KEY (fk_tipo_contato_id_tipo)
@@ -246,31 +247,37 @@ ALTER TABLE servidor ADD CONSTRAINT FK_servidor_3
 ALTER TABLE turma ADD CONSTRAINT FK_turma_2
     FOREIGN KEY (fk_curso_id_curso)
     REFERENCES curso (id_curso)
-    ON DELETE RESTRICT;
+    ON DELETE CASCADE;
 
 ALTER TABLE aula ADD CONSTRAINT FK_aula_2
 	FOREIGN KEY (fk_grupo_id_grupo)
-    REFERENCES grupo (id_grupo);
+    REFERENCES grupo (id_grupo)
+    ON DELETE CASCADE;
 
 ALTER TABLE aula ADD CONSTRAINT FK_aula_3
     FOREIGN KEY (fk_dia_semana_id_dia_semana)
-    REFERENCES dia_semana (id_dia_semana);
+    REFERENCES dia_semana (id_dia_semana)
+    ON DELETE CASCADE;
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_4
     FOREIGN KEY (fk_horario_aula_id_horario_aula)
-    REFERENCES horario_aula (id_horario_aula);
+    REFERENCES horario_aula (id_horario_aula)
+    ON DELETE CASCADE;
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_5
     FOREIGN KEY (fk_sala_aula_id_sala_aula)
-    REFERENCES sala_aula (id_sala_aula);
+    REFERENCES sala_aula (id_sala_aula)
+    ON DELETE CASCADE;
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_6
     FOREIGN KEY (fk_disciplina_id_disciplina)
-    REFERENCES disciplina (id_disciplina);
+    REFERENCES disciplina (id_disciplina)
+    ON DELETE CASCADE;
  
 ALTER TABLE aula ADD CONSTRAINT FK_aula_7
     FOREIGN KEY (fk_professor_fk_servidor_fk_usuario_id_usuario)
-    REFERENCES professor (fk_servidor_fk_usuario_id_usuario);
+    REFERENCES professor (fk_servidor_fk_usuario_id_usuario)
+    ON DELETE CASCADE;
  
 ALTER TABLE professor ADD CONSTRAINT FK_professor_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
@@ -280,12 +287,12 @@ ALTER TABLE professor ADD CONSTRAINT FK_professor_2
 ALTER TABLE servidor_horario ADD CONSTRAINT FK_servidor_horario_1
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
     REFERENCES servidor (fk_usuario_id_usuario)
-    ON DELETE RESTRICT;
+    ON DELETE CASCADE;
  
 ALTER TABLE servidor_horario ADD CONSTRAINT FK_servidor_horario_2
     FOREIGN KEY (fk_horario_id_horario)
     REFERENCES horario (id_horario)
-    ON DELETE SET NULL;
+    ON DELETE CASCADE;
  
 ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_2
     FOREIGN KEY (fk_servidor_fk_usuario_id_usuario)
@@ -294,21 +301,24 @@ ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_2
  
 ALTER TABLE administrativo ADD CONSTRAINT FK_administrativo_3
     FOREIGN KEY (fk_setor_id_setor)
-    REFERENCES setor (id_setor)
-    ON DELETE CASCADE;
+    REFERENCES setor (id_setor);
  
 ALTER TABLE horario ADD CONSTRAINT FK_horario_2
     FOREIGN KEY (fk_dia_semana_id_dia_semana)
-    REFERENCES dia_semana (id_dia_semana);
+    REFERENCES dia_semana (id_dia_semana)
+    ON DELETE CASCADE;
  
 ALTER TABLE grupo ADD CONSTRAINT FK_grupo_2
     FOREIGN KEY (fk_turma_id_turma)
-    REFERENCES turma (id_turma);
+    REFERENCES turma (id_turma)
+    ON DELETE CASCADE;
  
 ALTER TABLE grupo_aluno ADD CONSTRAINT FK_grupo_aluno_1
     FOREIGN KEY (fk_aluno_fk_usuario_id_usuario)
-    REFERENCES aluno (fk_usuario_id_usuario);
+    REFERENCES aluno (fk_usuario_id_usuario)
+    ON DELETE CASCADE;
  
 ALTER TABLE grupo_aluno ADD CONSTRAINT FK_grupo_aluno_2
     FOREIGN KEY (fk_grupo_id_grupo)
-    REFERENCES grupo (id_grupo);
+    REFERENCES grupo (id_grupo)
+    ON DELETE CASCADE;

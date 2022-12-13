@@ -20,22 +20,32 @@ INSERT INTO usuario (nom_usuario, email, senha, fk_acesso_id_acesso, fk_nivel_id
 	('Rafael', 'rafaelbarros@hotmail.com', '$2y$10$YLtWLzRodJzZ1mb31RdDO.1JLqJLoxnl1SBpnXLCbmGZ3bBER1aEm', 3, 1),
 	('Raphael', 'rbranco@yahoo.com', '$2y$10$xUZ9PMKKnLyHQxMrJREmT.gtIpMV785I5SrDq3jCqTgavF9.9F0Ra', 4, 1),
 	('Nauvia Cancelieri', 'nauvia@gmail.com', '$2y$10$//6XkcYo2qlAJWgbbDYiueC5QEEv8kX8zSu70uh34kA7eOnsSlGb6', 5, 1),
-	('Marta Amorim', 'marta@gmail.com', '$2y$10$TvuKBuyUgpdwdo/X8sxhaOuKYOtnk3pvwI7mZucRBExj8mQgsXQ72', 5, 1),                   
-	('Paulo Cezar', 'paulo.cesar@gmail.com', '$2y$10$kDwbUHz3pZjhikO29eAZp.LKdmy8E1UkN3NUxRLu7uDVL/HoViz4C', 5, 1),       
-	('Alessandro Bermudes', 'bermudes@gmail.com', '$2y$10$YhW5QUL.BTJzdmL3qzZQNeJf/FAFULcDbcEy.GAUMu2xKlBKDVPJe', 5, 1),           
-	('Ronaldo Marques', 'ronaldo@gmail.com', '$2y$10$09.kh9fHfHtZLwO3dP.SMuiozTdZCMdzqriBbgsv5AjBjYFqsjHp6', 5, 1),               
-	('Diego Alves', 'diego@gmail.com', '$2y$10$IceIFIucyB93NcgQw032DO8o/bONWDZwC9QJ/X9VGjOKKAPdqXKcu', 5, 1),                   
-	('Ana Paula Klauck', 'ana.paula@gmail.com', '$2y$10$0VHPjKuE6f6ev9h2Gdu2kuEA.sXIC0aOos5YRd66w5lJ/DRJ9jb2i', 5, 1),           
-	('Geraldo Bello', 'geraldo@gmail.com', '$2y$10$QkPZ1vF8uBX7M1I6bYoEvOKsc2L5tLnORWbHEkTqXl2WZblHB/Q92', 5, 1),               
-	('Maikon Chaider', 'maikon@gmail.com', '$2y$10$S0TJ.4x.sRkBgea8YAiq4.e00Ky/BRHyqhbMUZiTGQnvt9Ip3J0Ta', 5, 1),                 
-	('Carlos Lins', 'carlos@gmail.com', '$2y$10$wmEOlFlx63clUa5VCgiqe.Ysvl3T28LNJXwMvthDEBJocYQrQvYzG', 5, 1),                 
-	('Daniel Trindade', 'daniel@gmail.com', '$2y$10$kS8dBN46ELFC8IS/eV/Xd.5OuAEsd03p0AsPjdtG2F8wjdIjr3M.q', 5, 1),                 
+	('Marta Amorim', 'marta@gmail.com', '$2y$10$TvuKBuyUgpdwdo/X8sxhaOuKYOtnk3pvwI7mZucRBExj8mQgsXQ72', 5, 1),
+	('Paulo Cezar', 'paulo.cesar@gmail.com', '$2y$10$kDwbUHz3pZjhikO29eAZp.LKdmy8E1UkN3NUxRLu7uDVL/HoViz4C', 5, 1),
+	('Alessandro Bermudes', 'bermudes@gmail.com', '$2y$10$YhW5QUL.BTJzdmL3qzZQNeJf/FAFULcDbcEy.GAUMu2xKlBKDVPJe', 5, 1),
+	('Ronaldo Marques', 'ronaldo@gmail.com', '$2y$10$09.kh9fHfHtZLwO3dP.SMuiozTdZCMdzqriBbgsv5AjBjYFqsjHp6', 5, 1),
+	('Diego Alves', 'diego@gmail.com', '$2y$10$IceIFIucyB93NcgQw032DO8o/bONWDZwC9QJ/X9VGjOKKAPdqXKcu', 5, 1),
+	('Ana Paula Klauck', 'ana.paula@gmail.com', '$2y$10$0VHPjKuE6f6ev9h2Gdu2kuEA.sXIC0aOos5YRd66w5lJ/DRJ9jb2i', 5, 1),
+	('Geraldo Bello', 'geraldo@gmail.com', '$2y$10$QkPZ1vF8uBX7M1I6bYoEvOKsc2L5tLnORWbHEkTqXl2WZblHB/Q92', 5, 1),
+	('Maikon Chaider', 'maikon@gmail.com', '$2y$10$S0TJ.4x.sRkBgea8YAiq4.e00Ky/BRHyqhbMUZiTGQnvt9Ip3J0Ta', 5, 1),
+	('Carlos Lins', 'carlos@gmail.com', '$2y$10$wmEOlFlx63clUa5VCgiqe.Ysvl3T28LNJXwMvthDEBJocYQrQvYzG', 5, 1),
+	('Daniel Trindade', 'daniel@gmail.com', '$2y$10$kS8dBN46ELFC8IS/eV/Xd.5OuAEsd03p0AsPjdtG2F8wjdIjr3M.q', 5, 1),
 	('Moisés Omena', 'moisesomena@ifes.edu.br', '$2y$10$SU803qITi2b8imDq1R5stO7Amc0SAbzTxPdeh0kklt/IS9IqyYyxG', 5, 1),
-	('Thiago', 'thiagoneves@gmail.com', '$2y$10$5R0JhvGH7iTEA9HgUqEd0.SywoyROn6.kkgC81UMhCoXHfl.J8hw6', 3, 1),         
-	('Luís', 'luisluz@gmail.com', '$2y$10$5R0JhvGH7iTEA9HgUqEd0.SywoyROn6.kkgC81UMhCoXHfl.J8hw6', 3, 1),         
-	('Eloá', 'eloa@gmail.com', '$2y$10$5R0JhvGH7iTEA9HgUqEd0.SywoyROn6.kkgC81UMhCoXHfl.J8hw6', 3, 1),         
-	('Roger', 'warrick@gmail.com', '$2y$10$5R0JhvGH7iTEA9HgUqEd0.SywoyROn6.kkgC81UMhCoXHfl.J8hw6', 3, 1),
-	('Scopel', 'scopel.ifes@gmail.com', '$2y$10$5R0JhvGH7iTEA9HgUqEd0.SywoyROn6.kkgC81UMhCoXHfl.J8hw6', 4, 1);
+	('Thiago', 'thiagoneves@gmail.com', '$2y$10$6fXI2T1kKWS/VtBK/xWuc.3YTCT6woSgUnefm3iBUCDoSmNNwhCqC', 3, 1),
+	('Luís', 'luisluz@gmail.com', '$2y$10$gITaOwdMsWNsuUS1aa62muTSimB1zRpXoR6M5MwLL6j8gicfI6P5u', 3, 1),
+	('Eloá', 'eloa@gmail.com', '$2y$10$t/fKLP.q44ZqkLaZycYWGue2bkVoGYJobue8cB7SdSbB2RPgP13si', 3, 1),
+	('Roger', 'warrick@gmail.com', '$2y$10$OK2K8ow7rXdDOSTNZb5PtexUGJBluqdf5fpwOYDDk4pv5jXKWhktK', 3, 1),
+	('Scopel', 'scopel.ifes@gmail.com', '$2y$10$HPeewXn3pVl3kWNdAS1zt.ePBEMfeCvb2j/0o4he5E61M5VHfBbWe', 4, 1),
+	('Gabriel Nazarh', 'gabriel@gmail.com', '$2y$10$kbrzYs7vHbmywqBi1ObAnO29lzPPGPk9/8WmljXMh0g4CuIt1XSui', 5, 1),
+	('Milainy Ludmila', 'milainy@gmail.com', '$2y$10$YwIHqA2ZeUjW1rK8ZlAQlOqGG1/thVYx8QUZ4heUBNunnct98IvwO', 5, 1),
+	('Leandro Melo', 'leandro@gmail.com', '$2y$10$udeFuRlVuWMo/2NeYtyU5uhB26oqRH1SQqk7Y3mDu4cIcoe.9nDC2', 5, 1),
+	('Wagner Kirmse', 'wagner@gmail.com', '$2y$10$Vu6qHjm5E6KQZyYQ9DpI8ORZoKibRtiZ0igDR7Su.OyYeFbUD2GQq', 5, 1),
+	('Francisco Boldt', 'francisco@gmail.com', '$2y$10$7rUIIjSQ00UQX0AOZ.sSzOOs1P4DFcz0V0yd.clpjK0z7qlkKGOCW', 5, 1),
+	('Alessandra Vilarinho', 'alessandra@gmail.com', '$2y$10$KIrKzJokEt1P4qjoU6kW9uVudnXdp36rgM8HodJP5sgn/.VR6jfv.', 5, 1),
+	('Nicole Loss', 'nicole@gmail.com', '$2y$10$sdNAxzLKRmDD6c1OHzqBw.nkDdZLkzDgUPpOdyaHBdbAXqBE.WASa', 5, 1),
+	('Giordana Sperandio', 'giordana@gmail.com', '$2y$10$H8EpF8e7M3rnvHnU4FVKwOQLihzkgX8KZjBD.KxLS83aMkhUxHKuO', 5, 1),
+	('Jéssica Oliveira', 'jessica@gmail.com', '$2y$10$BfPciJpvxUcfnyw1e0XdWOOIds/B90mUbic5OnjfSY/yH9/EVFj6O', 5, 1),
+	('Hilário Seibel', 'hilario@gmail.com', '$2y$10$FCz85TVvPbK4R51E9z21muwO4R3TTkmhsOkOaf5yPsiMogRd0mv9.', 5, 1);
 
 INSERT INTO sala (num_sala) VALUES
 	('NA'),
@@ -167,6 +177,8 @@ INSERT INTO grupo (dsc_grupo, fk_turma_id_turma) VALUES
 	('C', 6),
 	('A', 6),
 	('B', 6),
+	('C', 2),
+	('C', 4),
 	('C', 10),
 	('C', 14),
 	('C', 15);
@@ -210,18 +222,27 @@ INSERT INTO sala_aula (dsc_sala_aula) VALUES
 	('LAB 903T'); -- 9
 	
 INSERT INTO disciplina (dsc_disciplina) VALUES
-	('BIO'),         -- 1
-	('DES SIST'),    -- 2
-	('DISP MOV'),    -- 3
-	('ELET BAS'),    -- 4 
-	('EMPREEND'),    -- 5
-	('FILOS'),       -- 6
-	('MAT'),         -- 7
-	('PORTUG'),      -- 8
-	('PROG WEB II'), -- 9
-	('PROJ INTEG'),  -- 10
-	('QUI'),         -- 11
-	('SOCIOL');      -- 12
+	('BIO'),        	  -- 1
+	('DES SIST'),  	  	  -- 2
+	('DISP MOV'),  	      -- 3
+	('ELET BAS'),   	  -- 4 
+	('EMPREEND'),  	      -- 5
+	('FILOS'),      	  -- 6
+	('MAT'),         	  -- 7
+	('PORTUG'),     	  -- 8
+	('PROG WEB II'),	  -- 9
+	('PROJ INTEG'),  	  -- 10
+	('QUI'),         	  -- 11
+	('SOCIOL'),           -- 12
+	('RED COMP E INTER'), -- 13
+	('ED FIS'),           -- 14
+	('FIS'),              -- 15
+	('PROG II'),          -- 16
+	('PROG IV'),          -- 17
+	('BANCO DADOS'),      -- 18
+	('HIST'),             -- 19
+	('GEO'),              -- 20
+	('PROG OO II');       -- 21
 
 INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
 	(null, 6),                 -- Nauvia Cancelieri
@@ -245,6 +266,86 @@ INSERT INTO aula (
 	fk_disciplina_id_disciplina,
 	fk_professor_fk_servidor_fk_usuario_id_usuario
 	) VALUES
+		-- Segunda-feira Info 2
+		(4, 2, 1, 1, 7, 17),
+		(4, 2, 2, 1, 7, 17),
+		(4, 2, 3, 1, 13, 13),
+		(4, 2, 4, 1, 13, 13),
+		(4, 2, 5, 1, 14, 24),
+		(4, 2, 6, 1, 14, 24),
+
+		-- Terça-feira Info 2
+		(4, 3, 1, 1, 15, 25),
+		(4, 3, 2, 1, 15, 25),
+		(4, 3, 3, 7, 16, 26),
+		(4, 3, 4, 7, 16, 26),
+		(4, 3, 5, 1, 8, 12),
+		(4, 3, 6, 1, 8, 12),
+
+		-- Quarta-feira Info 2
+		(4, 4, 1, 1, 1, 9),
+		(4, 4, 2, 1, 1, 9),
+		(4, 4, 3, 9, 13, 13),
+		(4, 4, 4, 9, 13, 13),
+		(4, 4, 5, 1, 11, 6),
+		(4, 4, 6, 1, 11, 6),
+
+		-- Quinta-feira Info 2
+		(4, 5, 1, 7, 16, 26),
+		(4, 5, 2, 7, 16, 26),
+		(4, 5, 3, 1, 1, 9),
+		(4, 5, 4, 1, 1, 9),
+		(4, 5, 5, 1, 7, 23),
+		(4, 5, 6, 1, 7, 23),
+
+		-- Sexta-feira Info 2
+		(4, 6, 1, 1, 15, 25),
+		(4, 6, 2, 1, 15, 25),
+		(4, 6, 3, 1, 11, 6),
+		(4, 6, 4, 1, 11, 6),
+		(4, 6, 5, 7, 16, 27),
+		(4, 6, 6, 7, 16, 27),
+
+		-- Segunda-feira Info 4
+		(5, 2, 1, 7, 18, 17),
+		(5, 2, 2, 7, 18, 17),
+		(5, 2, 3, 2, 6, 14),
+		(5, 2, 4, 2, 6, 14),
+		(5, 2, 5, 2, 19, 29),
+		(5, 2, 5, 2, 19, 29),
+
+		-- Terça-feira Info 4
+		(5, 3, 1, 2, , ),
+		(5, 3, 2, 2, , ),
+		(5, 3, 3, 2, , ),
+		(5, 3, 4, 2, , ),
+		(5, 3, 5, 7, , ),
+		(5, 3, 6, 7, , ),
+
+		-- Quarta-feira Info 4
+		(5, 4, 1, , , ),
+		(5, 4, 2, , , ),
+		(5, 4, 3, , , ),
+		(5, 4, 4, , , ),
+		(5, 4, 5, , , ),
+		(5, 4, 6, , , ),
+
+		-- Quinta-feira Info 4
+		(5, 5, 1, , , ),
+		(5, 5, 2, , , ),
+		(5, 5, 3, , , ),
+		(5, 5, 4, , , ),
+		(5, 5, 5, , , ),
+		(5, 5, 6, , , ),
+
+		-- Sexta-feira Info 4
+		(5, 6, 1, , , ),
+		(5, 6, 2, , , ),
+		(5, 6, 3, , , ),
+		(5, 6, 4, , , ),
+		(5, 6, 5, , , ),
+		(5, 6, 6, , , ),
+
 		-- Segunda-feira Info 6
 		(1, 2, 1, 3, 11, 6),
 		(1, 2, 2, 3, 11, 6),
