@@ -78,7 +78,17 @@ INSERT INTO servidor (fk_usuario_id_usuario, fk_sala_id_sala) VALUES
 	(15, 14),
 	(16, 13),
 	(17, 14), -- Moisés
-	(22, 15); -- Scopel
+	(22, 15), -- Scopel
+	(23, 1),
+	(24, 1),
+	(25, 1),
+	(26, 1),
+	(27, 1),
+	(28, 1),
+	(29, 1),
+	(30, 1),
+	(31, 1),
+	(32, 1);
 
 INSERT INTO tipo_contato (dsc_tipo) VALUES
 	('Telefone'),
@@ -257,7 +267,17 @@ INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
 	(null, 14),                -- Maikon Chaider
 	(null, 15),                -- Carlos Lins
 	(null, 16),                -- Daniel Trindade
-	('Não xingar!', 17); 	   -- Moisés Omena
+	('Não xingar!', 17), 	   -- Moisés Omena
+	(null, 23),
+	(null, 24),
+	(null, 25),
+	(null, 26),
+	(null, 27),
+	(null, 28),
+	(null, 29),
+	(null, 30),
+	(null, 31),
+	(null, 32);
 
 INSERT INTO aula (
 	fk_grupo_id_grupo,
@@ -313,7 +333,7 @@ INSERT INTO aula (
 		(5, 2, 3, 2, 6, 14),
 		(5, 2, 4, 2, 6, 14),
 		(5, 2, 5, 2, 19, 29),
-		(5, 2, 5, 2, 19, 29),
+		(5, 2, 6, 2, 19, 29),
 
 		-- Terça-feira Info 4
 		(5, 3, 1, 2, 22, 25),
