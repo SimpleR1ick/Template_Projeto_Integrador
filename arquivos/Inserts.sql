@@ -30,7 +30,7 @@ INSERT INTO usuario (nom_usuario, email, senha, fk_acesso_id_acesso, fk_nivel_id
 	('Maikon Chaider', 'maikon@gmail.com', '$2y$10$S0TJ.4x.sRkBgea8YAiq4.e00Ky/BRHyqhbMUZiTGQnvt9Ip3J0Ta', 5, 1),
 	('Carlos Lins', 'carlos@gmail.com', '$2y$10$wmEOlFlx63clUa5VCgiqe.Ysvl3T28LNJXwMvthDEBJocYQrQvYzG', 5, 1),
 	('Daniel Trindade', 'daniel@gmail.com', '$2y$10$kS8dBN46ELFC8IS/eV/Xd.5OuAEsd03p0AsPjdtG2F8wjdIjr3M.q', 5, 1),
-	('Moisés Omena', 'moisesomena@ifes.edu.br', '$2y$10$SU803qITi2b8imDq1R5stO7Amc0SAbzTxPdeh0kklt/IS9IqyYyxG', 5, 1),
+	('Moises Omena', 'moisesomena@ifes.edu.br', '$2y$10$SU803qITi2b8imDq1R5stO7Amc0SAbzTxPdeh0kklt/IS9IqyYyxG', 5, 1),
 	('Thiago', 'thiagoneves@gmail.com', '$2y$10$6fXI2T1kKWS/VtBK/xWuc.3YTCT6woSgUnefm3iBUCDoSmNNwhCqC', 3, 1),
 	('Luís', 'luisluz@gmail.com', '$2y$10$gITaOwdMsWNsuUS1aa62muTSimB1zRpXoR6M5MwLL6j8gicfI6P5u', 3, 1),
 	('Eloá', 'eloa@gmail.com', '$2y$10$t/fKLP.q44ZqkLaZycYWGue2bkVoGYJobue8cB7SdSbB2RPgP13si', 3, 1),
