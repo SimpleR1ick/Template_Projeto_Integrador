@@ -242,7 +242,8 @@ INSERT INTO disciplina (dsc_disciplina) VALUES
 	('BANCO DADOS'),      -- 18
 	('HIST'),             -- 19
 	('GEO'),              -- 20
-	('PROG OO II');       -- 21
+	('PROG OO II'),       -- 21
+	('ING');       		  -- 22
 
 INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
 	(null, 6),                 -- Nauvia Cancelieri
@@ -256,7 +257,7 @@ INSERT INTO professor (regras, fk_servidor_fk_usuario_id_usuario) VALUES
 	(null, 14),                -- Maikon Chaider
 	(null, 15),                -- Carlos Lins
 	(null, 16),                -- Daniel Trindade
-	('Não xingar porra!', 17); -- Moisés Omena
+	('Não xingar!', 17); 	   -- Moisés Omena
 
 INSERT INTO aula (
 	fk_grupo_id_grupo,
@@ -315,36 +316,36 @@ INSERT INTO aula (
 		(5, 2, 5, 2, 19, 29),
 
 		-- Terça-feira Info 4
-		(5, 3, 1, 2, , ),
-		(5, 3, 2, 2, , ),
-		(5, 3, 3, 2, , ),
-		(5, 3, 4, 2, , ),
-		(5, 3, 5, 7, , ),
-		(5, 3, 6, 7, , ),
+		(5, 3, 1, 2, 22, 25),
+		(5, 3, 2, 2, 22, 25),
+		(5, 3, 3, 2, 12, 11),
+		(5, 3, 4, 2, 12, 11),
+		(5, 3, 5, 7, 17, 28),
+		(5, 3, 6, 7, 17, 28),
 
 		-- Quarta-feira Info 4
-		(5, 4, 1, , , ),
-		(5, 4, 2, , , ),
-		(5, 4, 3, , , ),
-		(5, 4, 4, , , ),
-		(5, 4, 5, , , ),
-		(5, 4, 6, , , ),
+		(5, 4, 2, 2, 20, 31),
+		(5, 4, 1, 2, 20, 31),
+		(5, 4, 3, 2, 8, 12),
+		(5, 4, 4, 2, 8, 12),
+		(5, 4, 5, 7, 18, 17),
+		(5, 4, 6, 7, 18, 17),
 
 		-- Quinta-feira Info 4
-		(5, 5, 1, , , ),
-		(5, 5, 2, , , ),
-		(5, 5, 3, , , ),
-		(5, 5, 4, , , ),
-		(5, 5, 5, , , ),
-		(5, 5, 6, , , ),
+		(5, 5, 1, 2, 14, 24),
+		(5, 5, 2, 2, 14, 24),
+		(5, 5, 3, 2, 12, 11),
+		(5, 5, 4, 2, 12, 11),
+		(5, 5, 5, 7, 21, 32),
+		(5, 5, 6, 7, 21, 32),
 
 		-- Sexta-feira Info 4
-		(5, 6, 1, , , ),
-		(5, 6, 2, , , ),
-		(5, 6, 3, , , ),
-		(5, 6, 4, , , ),
-		(5, 6, 5, , , ),
-		(5, 6, 6, , , ),
+		(5, 6, 1, 2, 19, 29),
+		(5, 6, 2, 2, 19, 29),
+		(5, 6, 3, 2, 20, 31),
+		(5, 6, 4, 2, 20, 31),
+		(5, 6, 5, 2, 7, 23),
+		(5, 6, 6, 2, 7, 23),
 
 		-- Segunda-feira Info 6
 		(1, 2, 1, 3, 11, 6),
